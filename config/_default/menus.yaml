@@ -17,7 +17,7 @@ main:
     url: 'https://ananyamalikk.substack.com/'
     weight: 30
   - name: CV
-    url: 'files/cv/cv.pdf'
+    url: 'files/cv/Ananya_Resume_2023.pdf'
     weight: 30
   # - name: Projects
   #   url: '/project.html'
