@@ -1,6 +1,6 @@
 ---
-date: 2023-4-27
-publishDate: 2023-6-27
+date: 2023-04-27
+publishDate: 2023-06-27
 external_link: 'https://ananyamalikk.substack.com/p/of-multimodal-comprehension-and-ignorance'
 image:
   caption: Intent to Hate

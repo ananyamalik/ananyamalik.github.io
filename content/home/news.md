@@ -19,6 +19,8 @@ content:
       tag: Education
     - name: Papers
       tag: Paper
+    - name: Articles
+      tag: Article
 design:
   columns: '2'
   # Toggle between the various page layout types.
