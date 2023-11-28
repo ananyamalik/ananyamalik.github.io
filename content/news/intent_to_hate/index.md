@@ -6,8 +6,7 @@ image:
   caption: Intent to Hate
   focal_point: Smart
 slides: example
-summary: A study on the intent behind hate generated on Twitter against the Asian Community during the
-COVID-19 pandemic.
+summary: A study on the intent behind hate generated on Twitter against the Asian Community during the COVID-19 pandemic.
 tags:
 - Article
 title: New Article on Substack! Intent to Hate
