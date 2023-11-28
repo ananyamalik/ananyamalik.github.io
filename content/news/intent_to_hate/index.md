@@ -1,6 +1,6 @@
 ---
-date: 2021-08-09
-publishDate: 2021-08-09
+date: 2023-11-26
+publishDate: 2023-11-26
 external_link: 'https://ananyamalikk.substack.com/p/intent-to-hate'
 image:
   caption: Intent to Hate

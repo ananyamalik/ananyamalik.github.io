@@ -1,6 +1,6 @@
 ---
-date: 2020-09-18
-publishDate: 2020-09-18
+date: 2023-11-24
+publishDate: 2023-11-24
 external_link: publication/evaluating_llm_via_gender_and_race.html
 image:
   caption: Evaluating Large Language Models through Gender and Racial Stereotypes
