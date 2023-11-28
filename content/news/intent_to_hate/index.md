@@ -1,7 +1,7 @@
 ---
 date: 2021-08-09
 publishDate: 2021-08-09
-external_link: https://ananyamalikk.substack.com/p/intent-to-hate
+external_link: 'https://ananyamalikk.substack.com/p/intent-to-hate'
 image:
   caption: Intent to Hate
   focal_point: Smart
