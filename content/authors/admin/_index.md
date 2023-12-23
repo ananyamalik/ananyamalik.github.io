@@ -81,18 +81,12 @@ highlight_name: true
 
 **About me**
 
-I was a student researcher at Georgia Institute of Technology affiliated to the [CLAWS Lab](https://faculty.cc.gatech.edu/~srijan/). In 2022 I graduated with an MS in Computer Science from Georgia Tech , and I am currently working at [Amazon.com](https://www.amazon.com/) as an Software Development Engineer.
-
+I am currently working at [Amazon.com](https://www.amazon.com/) as an SDE. I was a student researcher at Georgia Institute of Technology affiliated to the [CLAWS Lab](https://faculty.cc.gatech.edu/~srijan/).In 2022 I graduated with an MS in Computer Science from Georgia Tech. 
 
 **Research Interests**
 
-My research interests lie broadly in the area of AI for Social good.
-
-I want to analyse online conversations using multimodal models to predict and identify patterns that lead to disruptions such as the spread of misinformation and hate speech on social media. I then want to devise methodologies to recognise the biases in AI systems and quantify their impact on human behaviour, especially when these models are integrated with the systems that we use regularly. Finally, I want to apply these AI systems, to improve interactions, and to help users build online conversations that are less biased, more informative, and engaging, thus reducing the spread of misinformation and toxicity.
+My research broadly lies in using AI for Social Good. I want to analyse online conversations using multimodal models to predict and identify patterns that lead to disruptions such as the spread of misinformation and hate speech on social media. I then want to devise methodologies to recognise the biases in AI systems and quantify their impact on human behaviour, especially when these models are integrated with the systems that we use regularly. Finally, I want to apply these AI systems, to improve interactions, and to help users build online conversations that are less biased, more informative, and engaging, thus reducing the spread of misinformation and toxicity.
 
 **Interests Beyond the Lab**
 
-I enjoy the outdoors very much, and my summer in the Pacific North West in 2022, inspired me to share my experiences of my Instagram [@anansaidya][https://www.instagram.com/anansaidya/?hl=en]. 
-
-I also write, read and enthusiastically attempt to play (and fail) at sports. I am always up for a cup of Coffee, so if you are in the Seattle Area, do reach out
-
+I sometimes post my outdoorish adventures on [@anansaidya](https://www.instagram.com/anansaidya/?hl=en) as I explore the Pacific North West! If you are in the Seattle Area, do reach out!
