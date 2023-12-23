@@ -79,6 +79,9 @@ email: 'ananyamalik1999@gmail.com'
 highlight_name: true
 ---
 
+
+
+
 **About me**
 
 I am currently working at [Amazon.com](https://www.amazon.com/) as an SDE. I was a student researcher at Georgia Institute of Technology affiliated to the [CLAWS Lab](https://faculty.cc.gatech.edu/~srijan/).In 2022 I graduated with an MS in Computer Science from Georgia Tech. 
