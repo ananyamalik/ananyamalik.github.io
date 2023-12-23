@@ -79,8 +79,7 @@ email: 'ananyamalik1999@gmail.com'
 highlight_name: true
 ---
 
-
-
+Hi My name is Ananya Malik and I am an applicant for CS and Information Science PhD in the 2024 cycle. Welcome to my page!
 
 **About me**
 
