@@ -8,12 +8,12 @@ markdown: kramdown
 remote_theme: ankitsultana/researcher@gem
 # tracking_id: #
 
-# footer: yes
+footer: yes
 # footer_url: "https://github.com/ankitsultana"
 # footer_text: "Page design by Ankit Sultana"
 
-twitter: yes
-twitter_username: ananyamalikk
+# twitter: yes
+# twitter_username: ananyamalikk
 
 sass:
     style: compressed
