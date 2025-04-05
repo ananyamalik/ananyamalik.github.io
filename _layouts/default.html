@@ -83,11 +83,25 @@
         {% endif %}
                 {{ content }}
                 {% if site.footer == true %}
-                    <hr />
-                    <p style="text-align: center; margin-bottom: 10px">
+                <hr />
+                <p style="text-align: center; margin-bottom: 10px">
                     <a href="{{ site.footer_url }}" style="color: black"><small>{{ site.footer_text }}</small></a>
-                    </p>
-                {% endif %}
+                </p>
+                <div style="text-align: center;">
+                    <a href="mailto:malik.ana@northeastern.edu" target="_blank" style="margin: 0 10px; color: black;">
+                        <i class="fa fa-envelope" style="font-size: 20px;"></i>
+                    </a>
+                    <a href="https://twitter.com/ananyamalikk" target="_blank" style="margin: 0 10px; color: black;">
+                        <i class="fa fa-twitter" style="font-size: 20px;"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ananyamalik" target="_blank" style="margin: 0 10px; color: black;">
+                        <i class="fa fa-linkedin" style="font-size: 20px;"></i>
+                    </a>
+                    <a href="https://scholar.google.com/citations?user=DJh6B0sAAAAJ" target="_blank" style="margin: 0 10px; color: black;">
+                        <i class="fa fa-google" style="font-size: 20px;"></i>
+                    </a>
+                </div>
+            {% endif %}
             </div>
     </div>
     {% if site.tracking_id %}

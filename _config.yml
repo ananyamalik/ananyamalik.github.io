@@ -12,6 +12,9 @@ remote_theme: ankitsultana/researcher@gem
 # footer_url: "https://github.com/ankitsultana"
 # footer_text: "Page design by Ankit Sultana"
 
+twitter: yes
+twitter_username: ananyamalikk
+
 sass:
     style: compressed
     sass_dir: _sass
