@@ -25,7 +25,7 @@ I am interested in leveraging AI capabilities for understanding how communities 
 
 ## Updates
 
-- **[December 2024]** Our paper on [evaluating models for cultural robustness in hate speech detection](https://arxiv.org/abs/2410.20490) accepted as an oral presentation at the SafeGenAI at NeurIPS!!
+- **[December 2024]** Our paper on [evaluating models for cultural robustness in hate speech detection](https://arxiv.org/abs/2410.20490) accepted as an oral presentation at the SafeGenAI at NeurIPS!
 - **[September 2024]** Started my PhD at Northeastern University
 - **[January 2024]** Volunteering as a research Mentor at [SimPPL](https://simppl.org/)
 - **[August 2023]** Started working as a Software Develpoment Engineer at [ASCS @ Amazon](https://www.amazon.jobs/content/en/teams/e-commerce-foundation/ascs)
