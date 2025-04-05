@@ -8,6 +8,11 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write  # Grant write access to the repository contents
+  pull-requests: write  # Grant write access to pull requests
+
+
 jobs:
   build:
     runs-on: ubuntu-latest
