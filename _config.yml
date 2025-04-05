@@ -1,6 +1,6 @@
 title: Ananya Malik
 url: "https://ananyamalik.github.io/"
-# baseurl: "/researcher"
+baseurl: ""
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
