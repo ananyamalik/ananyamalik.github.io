@@ -19,7 +19,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7  # Adjust if necessary
+          ruby-version: 3.4.1 # Adjust if necessary
 
       - name: Install dependencies
         run: |
