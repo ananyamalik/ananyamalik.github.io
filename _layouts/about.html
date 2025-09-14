@@ -74,9 +74,16 @@
 
                 <!-- Left: profile photo + updates -->
                 <div class="about-left">
-                    <img class="profile-picture" src="{{ site.profile_picture | default: '/ananya_profile.jpg' }}" alt="Profile photo">
+                    <figure style="margin: 0;">
+                        <img class="profile-picture" src="{{ site.profile_picture | default: '/ananya_profile.jpg' }}" alt="Profile photo" style="width: 100%; height: auto; border-radius: 8px;">
+                        <figcaption style="text-align: center; margin-top: 0.5em; font-style: italic; color: #555;">
+                            CS PhD Student, 
+                            Northeastern University
+                        </figcaption>
+                    </figure>
 
                     <div class="updates">
+            
                         <h2>Updates</h2>
                         <ul>
                           <li><strong>[August 2025]</strong> Two of my papers have been accepted to EMNLP Findings 🎉.</li>
@@ -84,9 +91,9 @@
                           <li><strong>[December 2024]</strong> Paper on <a href="https://arxiv.org/abs/2410.20490">evaluating models for cultural robustness</a> accepted at SafeGenAI.</li>
                           <li><strong>[September 2024]</strong> Started my PhD at Northeastern University.</li>
                           <li><strong>[January 2024]</strong>Volunteering as a research Mentor at [SimPPL](https://simppl.org/)</li>
-                          <li><strong>[August 2023]</strong>Started working as a Software Develpoment Engineer at <a href="https://www.amazon.jobs/content/en/teams/e-commerce-foundation/ascs">ASCS @ Amazon</a></li>
-                          <li><strong>[February 2023</strong>Started as a full-time researcher and data engineer at [CLAWS Lab](https://faculty.cc.gatech.edu/~srijan/), Georgia Tech</li>
-                          <li><strong>[December 2022]</strong>Graduated with MS CS from Georgia Tech</li>
+                          <li><strong>[August 2023]</strong> Started working as a Software Develpoment Engineer at <a href="https://www.amazon.jobs/content/en/teams/e-commerce-foundation/ascs">ASCS @ Amazon</a></li>
+                          <li><strong>[February 2023]</strong> Started as a full-time researcher and data engineer at [CLAWS Lab](https://faculty.cc.gatech.edu/~srijan/), Georgia Tech</li>
+                          <li><strong>[December 2022]</strong> Graduated with MS CS from Georgia Tech</li>
                         </ul>
                     </div>
                 </div>
