@@ -17,21 +17,6 @@
     <link rel="stylesheet" href="/css/main.css">
     
     
-    <!-- Facebook Open Graph -->
-    <meta name="og:description" content="">
-    <meta name="og:title" content="Ananya Malik">
-    <meta name="og:url" content="https://ananyamalik.github.io//">
-    <meta name="og:type" content="article">
-    
-    
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Ananya Malik">
-    <meta name="twitter:description" content="">
-    <meta name="twitter:url" content="https://ananyamalik.github.io//">
-    
-        <meta name="twitter:image" content="">
-    
 </head>
 <body>
     <div class="wrapper">
@@ -74,10 +59,14 @@
         </div>
         <div style="clear:both"></div>
         <hr>
-        
-            <div class="container content">
-        
-                <h2 id="about-me">About Me</h2>
+
+        <!-- START CONTENT CONTAINER -->
+        <div class="container content">
+          <div style="display: flex; flex-wrap: wrap; gap: 2em;">
+
+            <!-- Left container: main content from index.md -->
+            <div style="flex: 2; min-width: 300px;">
+              <h2 id="about-me">About Me</h2>
 
 <p><img class="profile-picture" src="ananya_profile.jpg" /></p>
 
@@ -85,26 +74,16 @@
 
 <p>Before starting my PhD, I was a Software Engineer with the <a href="https://www.amazon.jobs/content/en/teams/e-commerce-foundation/ascs">Selection Monitoring and Catalog Systems</a> organization at Amazon in Seattle. Prior to that I was an MS CS student at <a href="https://www.gatech.edu/">Georgia Tech</a>. At Georgia Tech, I was advised by Prof <a href="https://faculty.cc.gatech.edu/~srijan/">Srijan Kumar</a> in the CLAWS Lab. I also dabble as a Research mentor with <a href="https://simppl.org/">SimPPL</a>.</p>
 
-<div style="display: flex; align-items: flex-start; gap: 2em;">
+<!-- ## Updates
 
-  <!-- Left column -->
-  <div style="flex: 1;">
-    <h2>Updates</h2>
-    <ul>
-      <li><strong>[August 2025]</strong> Two of my papers have been accepted to EMNLP Findings 🎉. More information coming soon!</li>
-      <li><strong>[July 2025]</strong> I was selected as a fellow/mentee for <a href="https://www.cambridgeaisafety.org/mars">MARS</a> with <a href="https://www.geodesicresearch.org/">Geodesic Research</a>.</li>
-      <li><strong>[December 2024]</strong> Our paper on <a href="https://arxiv.org/abs/2410.20490">evaluating models for cultural robustness in hate speech detection</a> accepted as an oral presentation at SafeGenAI at NeurIPS!</li>
-      <li><strong>[September 2024]</strong> Started my PhD at Northeastern University</li>
-      <!-- Add the rest of updates -->
-    </ul>
-  </div>
-
-  <!-- Right column -->
-  <div>
-    <img class="profile-picture" src="ananya_profile.jpg" style="max-width: 200px; height: auto;" />
-  </div>
-
-</div>
+- **[August 2025]** Two of my papers have been accepted to EMNLP Findings 🎉. More information coming soon!
+- **[July 2025]** I was selected as a fellow/mentee for [MARS(Mentorship for Alignment Research)](https://www.cambridgeaisafety.org/mars) with [Geodesic Research](https://www.geodesicresearch.org/). Our project centralizes around AI Control 👀
+- **[December 2024]** Our paper on [evaluating models for cultural robustness in hate speech detection](https://arxiv.org/abs/2410.20490) accepted as an oral presentation at the SafeGenAI at NeurIPS!
+- **[September 2024]** Started my PhD at Northeastern University
+- **[January 2024]** Volunteering as a research Mentor at [SimPPL](https://simppl.org/)
+- **[August 2023]** Started working as a Software Develpoment Engineer at [ASCS @ Amazon](https://www.amazon.jobs/content/en/teams/e-commerce-foundation/ascs)
+- **[February 2023]** Started as a full-time researcher and data engineer at [CLAWS Lab](https://faculty.cc.gatech.edu/~srijan/), Georgia Tech
+- **[December 2022]** Graduated with MS CS from Georgia Tech -->
 
 <h2 id="research-interest">Research Interest</h2>
 
@@ -178,23 +157,45 @@ Appl (IJCA). 2020;175(20):13–18. doi:10.5120/ijca2020920728</li>
   </li>
 </ul>
 
-                
-                <div style="text-align: center;">
-                    <a href="mailto:malik.ana@northeastern.edu" target="_blank" style="margin: 0 10px; color: black;">
-                        <i class="fa fa-envelope" style="font-size: 20px;"></i>
-                    </a>
-                    <a href="https://twitter.com/ananyamalikk" target="_blank" style="margin: 0 10px; color: black;">
-                        <i class="fa fa-twitter" style="font-size: 20px;"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/ananyamalik" target="_blank" style="margin: 0 10px; color: black;">
-                        <i class="fa fa-linkedin" style="font-size: 20px;"></i>
-                    </a>
-                    <a href="https://scholar.google.com/citations?user=DJh6B0sAAAAJ" target="_blank" style="margin: 0 10px; color: black;">
-                        <i class="fa fa-google" style="font-size: 20px;"></i>
-                    </a>
-                </div>
-            
             </div>
+
+            <!-- Right container: profile photo and updates -->
+            <div style="flex: 1; min-width: 250px;">
+              <img class="profile-picture" src="/ananya_profile.jpg" alt="Profile photo" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em; border-radius: 8px;">
+
+              <div class="updates">
+                <h2>Updates</h2>
+                <ul>
+                  <li><strong>[August 2025]</strong> Two of my papers have been accepted to EMNLP Findings 🎉.</li>
+                  <li><strong>[July 2025]</strong> Selected as a fellow/mentee for <a href="https://www.cambridgeaisafety.org/mars">MARS</a>.</li>
+                  <li><strong>[December 2024]</strong> Paper on <a href="https://arxiv.org/abs/2410.20490">evaluating models for cultural robustness</a> accepted at SafeGenAI.</li>
+                  <li><strong>[September 2024]</strong> Started my PhD at Northeastern University.</li>
+                  <!-- Add more updates -->
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- END CONTENT CONTAINER -->
+
+        
+        <div style="text-align: center;">
+            <a href="mailto:malik.ana@northeastern.edu" target="_blank" style="margin: 0 10px; color: black;">
+                <i class="fa fa-envelope" style="font-size: 20px;"></i>
+            </a>
+            <a href="https://twitter.com/ananyamalikk" target="_blank" style="margin: 0 10px; color: black;">
+                <i class="fa fa-twitter" style="font-size: 20px;"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ananyamalik" target="_blank" style="margin: 0 10px; color: black;">
+                <i class="fa fa-linkedin" style="font-size: 20px;"></i>
+            </a>
+            <a href="https://scholar.google.com/citations?user=DJh6B0sAAAAJ" target="_blank" style="margin: 0 10px; color: black;">
+                <i class="fa fa-google" style="font-size: 20px;"></i>
+            </a>
+        </div>
+        
+
     </div>
     
 </body>
