@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  <style>
+    .about-page {
+      display: flex;
+      flex-wrap: wrap; /* ensures mobile-friendly stacking */
+      gap: 2em;
+      padding: 20px;
+    }
+
+    .about-left {
+      flex: 2; /* takes 2/3 of space */
+      min-width: 300px;
+    }
+
+    .about-right {
+      flex: 1; /* takes 1/3 of space */
+      min-width: 250px;
+    }
+
+    .about-right img.profile-picture {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 1em;
+      border-radius: 8px;
+    }
+
+    /* Optional: style Updates list */
+    .updates ul {
+      list-style-type: disc;
+      padding-left: 1.2em;
+    }
+  </style>
+</head>
+<body>
+  {% include header.html %}
+
+  <main class="about-page">
+
+    <!-- Left container: main content from index.md -->
+    <div class="about-left">
+      {{ content }}
+    </div>
+
+    <!-- Right container: profile photo and updates -->
+    <div class="about-right">
+      <img class="profile-picture" src="{{ site.profile_picture | default: '/ananya_profile.jpg' }}" alt="Profile photo">
+
+      <div class="updates">
+        <h2>Updates</h2>
+        <ul>
+          <li><strong>[August 2025]</strong> Two of my papers have been accepted to EMNLP Findings 🎉.</li>
+          <li><strong>[July 2025]</strong> Selected as a fellow/mentee for <a href="https://www.cambridgeaisafety.org/mars">MARS</a>.</li>
+          <li><strong>[December 2024]</strong> Paper on <a href="https://arxiv.org/abs/2410.20490">evaluating models for cultural robustness</a> accepted at SafeGenAI.</li>
+          <li><strong>[September 2024]</strong> Started my PhD at Northeastern University.</li>
+          <!-- Add more updates as needed -->
+        </ul>
+      </div>
+    </div>
+
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>
