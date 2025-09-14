@@ -5,33 +5,46 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="blog, accent, {{ site.author }}, {{ site.title }}, jekyll">
-    <meta name="author" content="{{ site.author }}">
-    {% if page.url == "/404.html" %}
-        <meta http-equiv="refresh" content="5; url=/">
-    {% endif %}
-    {% if page.description %}
-        {% assign desc = page.description %}
-    {% else %}
-        {% assign desc = site.description %}
-    {% endif %}
-    {% if page.url %}
-        {% assign url = site.url | append: site.baseurl | append: page.url %}
-    {% else %}
-        {% assign url = site.url | append: site.baseurl | append: page.url %}
-    {% endif %}
-    <meta name="description" content="{{ desc }}">
-    <link href='https://fonts.google.com/share?selection.family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700' rel='stylesheet' type='text/css'>
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-    {% if site.favicon %}
-        <link rel="icon" type="image/ico" href="{{ site.favicon_location }}">
-        <link rel="shortcut-icon" type="image/ico" href="{{ site.favicon_location }}">
-    {% endif %}
-    {% if site.twitter_username %}
-        <link rel="author" href="https://twitter.com/{{ site.twitter_username }}">
-    {% endif %}
+
+    <style>
+        /* Flex layout for content */
+        .about-page-flex {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2em;
+            padding: 20px 0;
+        }
+
+        /* Left column: profile photo + updates */
+        .about-left {
+            flex: 1;
+            min-width: 250px;
+            display: flex;
+            flex-direction: column; /* stack photo and updates vertically */
+        }
+
+        /* Right column: main content */
+        .about-right {
+            flex: 2;
+            min-width: 300px;
+        }
+
+        .about-left img.profile-picture {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 1em;
+            border-radius: 8px;
+        }
+
+        .updates ul {
+            list-style-type: disc;
+            padding-left: 1.2em;
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
     <div class="wrapper">
@@ -47,44 +60,41 @@
                     {% else %}
                         <li class="alignable pull-left nav-list"><a href="{{ x.link }}">{{ x.name }}</a>
                     {% endif %}
-                    {% if forloop.last == false %}
-                        /
-                    {% endif %}
-                        </li>
+                    {% if forloop.last == false %} / {% endif %}
+                    </li>
                 {% endfor %}
             </ul>
         </div>
         <div style="clear:both"></div>
         <hr>
 
-        <!-- START CONTENT CONTAINER -->
+        <!-- MAIN CONTENT FLEX -->
         <div class="container content">
-          <div style="display: flex; flex-wrap: wrap; gap: 2em;">
+            <div class="about-page-flex">
 
-            <!-- Left container: main content from index.md -->
-            <div style="flex: 2; min-width: 300px;">
-              {{ content }}
+                <!-- Left: profile photo + updates -->
+                <div class="about-left">
+                    <img class="profile-picture" src="{{ site.profile_picture | default: '/ananya_profile.jpg' }}" alt="Profile photo">
+
+                    <div class="updates">
+                        <h2>Updates</h2>
+                        <ul>
+                          <li><strong>[August 2025]</strong> Two of my papers have been accepted to EMNLP Findings 🎉.</li>
+                          <li><strong>[July 2025]</strong> Selected as a fellow/mentee for <a href="https://www.cambridgeaisafety.org/mars">MARS</a>.</li>
+                          <li><strong>[December 2024]</strong> Paper on <a href="https://arxiv.org/abs/2410.20490">evaluating models for cultural robustness</a> accepted at SafeGenAI.</li>
+                          <li><strong>[September 2024]</strong> Started my PhD at Northeastern University.</li>
+                          <!-- Add more updates -->
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Right: main content -->
+                <div class="about-right">
+                    {{ content }}
+                </div>
+
             </div>
-
-            <!-- Right container: profile photo and updates -->
-            <div style="flex: 1; min-width: 250px;">
-              <img class="profile-picture" src="{{ site.profile_picture | default: '/ananya_profile.jpg' }}" alt="Profile photo" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em; border-radius: 8px;">
-
-              <div class="updates">
-                <h2>Updates</h2>
-                <ul>
-                  <li><strong>[August 2025]</strong> Two of my papers have been accepted to EMNLP Findings 🎉.</li>
-                  <li><strong>[July 2025]</strong> Selected as a fellow/mentee for <a href="https://www.cambridgeaisafety.org/mars">MARS</a>.</li>
-                  <li><strong>[December 2024]</strong> Paper on <a href="https://arxiv.org/abs/2410.20490">evaluating models for cultural robustness</a> accepted at SafeGenAI.</li>
-                  <li><strong>[September 2024]</strong> Started my PhD at Northeastern University.</li>
-                  <!-- Add more updates -->
-                </ul>
-              </div>
-            </div>
-
-          </div>
         </div>
-        <!-- END CONTENT CONTAINER -->
 
         {% if site.footer == true %}
         <div style="text-align: center;">
@@ -104,16 +114,6 @@
         {% endif %}
 
     </div>
-    {% if site.tracking_id %}
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-          ga('create', '{{ site.tracking_id }}', 'auto');
-          ga('send', 'pageview');
-        </script>
-    {% endif %}
 </body>
 <footer>
 </footer>

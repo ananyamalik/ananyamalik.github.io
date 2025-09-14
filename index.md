@@ -4,7 +4,7 @@ layout: about
 
 ## About Me
 
-<img class="profile-picture" src="ananya_profile.jpg">
+<!-- <img class="profile-picture" src="ananya_profile.jpg"> -->
 
 I am a first year CS PhD student at [Khoury College of Computer Science](https://www.khoury.northeastern.edu/) at Northeastern University in Boston. I am advised by Prof [Mai ElSherief](https://www.maielsherief.com/). 
 
