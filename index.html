@@ -5,18 +5,46 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="blog, accent, , Ananya Malik, jekyll">
-    <meta name="author" content="">
-    
-    
-    
-    <meta name="description" content="">
-    <link href='https://fonts.google.com/share?selection.family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700' rel='stylesheet' type='text/css'>
-    <link rel="alternate" type="application/rss+xml" title="Ananya Malik RSS" href="/feed.xml" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="/css/main.css">
-    
-    
+
+    <style>
+        /* Flex layout for content */
+        .about-page-flex {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2em;
+            padding: 20px 0;
+        }
+
+        /* Left column: profile photo + updates */
+        .about-left {
+            flex: 1;
+            min-width: 250px;
+            display: flex;
+            flex-direction: column; /* stack photo and updates vertically */
+        }
+
+        /* Right column: main content */
+        .about-right {
+            flex: 2;
+            min-width: 300px;
+        }
+
+        .about-left img.profile-picture {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 1em;
+            border-radius: 8px;
+        }
+
+        .updates ul {
+            list-style-type: disc;
+            padding-left: 1.2em;
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
     <div class="wrapper">
@@ -28,47 +56,57 @@
                     
                         <li class="alignable pull-left nav-list"><a href="https://ananyamalik.github.io/">About</a>
                     
-                    
-                        /
-                    
-                        </li>
+                     / 
+                    </li>
                 
                     
                         <li class="alignable pull-left nav-list"><a target="_blank" href="resume.pdf">Resume</a>
                     
-                    
-                        /
-                    
-                        </li>
+                     / 
+                    </li>
                 
                     
                         <li class="alignable pull-left nav-list"><a href="contact">Contact</a>
                     
-                    
-                        /
-                    
-                        </li>
+                     / 
+                    </li>
                 
                     
                         <li class="alignable pull-left nav-list"><a href="https://ananyamalikk.substack.com/">Blog</a>
                     
                     
-                        </li>
+                    </li>
                 
             </ul>
         </div>
         <div style="clear:both"></div>
         <hr>
 
-        <!-- START CONTENT CONTAINER -->
+        <!-- MAIN CONTENT FLEX -->
         <div class="container content">
-          <div style="display: flex; flex-wrap: wrap; gap: 2em;">
+            <div class="about-page-flex">
 
-            <!-- Left container: main content from index.md -->
-            <div style="flex: 2; min-width: 300px;">
-              <h2 id="about-me">About Me</h2>
+                <!-- Left: profile photo + updates -->
+                <div class="about-left">
+                    <img class="profile-picture" src="/ananya_profile.jpg" alt="Profile photo">
 
-<p><img class="profile-picture" src="ananya_profile.jpg" /></p>
+                    <div class="updates">
+                        <h2>Updates</h2>
+                        <ul>
+                          <li><strong>[August 2025]</strong> Two of my papers have been accepted to EMNLP Findings 🎉.</li>
+                          <li><strong>[July 2025]</strong> Selected as a fellow/mentee for <a href="https://www.cambridgeaisafety.org/mars">MARS</a>.</li>
+                          <li><strong>[December 2024]</strong> Paper on <a href="https://arxiv.org/abs/2410.20490">evaluating models for cultural robustness</a> accepted at SafeGenAI.</li>
+                          <li><strong>[September 2024]</strong> Started my PhD at Northeastern University.</li>
+                          <!-- Add more updates -->
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Right: main content -->
+                <div class="about-right">
+                    <h2 id="about-me">About Me</h2>
+
+<!-- <img class="profile-picture" src="ananya_profile.jpg"> -->
 
 <p>I am a first year CS PhD student at <a href="https://www.khoury.northeastern.edu/">Khoury College of Computer Science</a> at Northeastern University in Boston. I am advised by Prof <a href="https://www.maielsherief.com/">Mai ElSherief</a>.</p>
 
@@ -157,27 +195,10 @@ Appl (IJCA). 2020;175(20):13–18. doi:10.5120/ijca2020920728</li>
   </li>
 </ul>
 
+                </div>
+
             </div>
-
-            <!-- Right container: profile photo and updates -->
-            <div style="flex: 1; min-width: 250px;">
-              <img class="profile-picture" src="/ananya_profile.jpg" alt="Profile photo" style="max-width: 100%; height: auto; display: block; margin-bottom: 1em; border-radius: 8px;">
-
-              <div class="updates">
-                <h2>Updates</h2>
-                <ul>
-                  <li><strong>[August 2025]</strong> Two of my papers have been accepted to EMNLP Findings 🎉.</li>
-                  <li><strong>[July 2025]</strong> Selected as a fellow/mentee for <a href="https://www.cambridgeaisafety.org/mars">MARS</a>.</li>
-                  <li><strong>[December 2024]</strong> Paper on <a href="https://arxiv.org/abs/2410.20490">evaluating models for cultural robustness</a> accepted at SafeGenAI.</li>
-                  <li><strong>[September 2024]</strong> Started my PhD at Northeastern University.</li>
-                  <!-- Add more updates -->
-                </ul>
-              </div>
-            </div>
-
-          </div>
         </div>
-        <!-- END CONTENT CONTAINER -->
 
         
         <div style="text-align: center;">
@@ -197,7 +218,6 @@ Appl (IJCA). 2020;175(20):13–18. doi:10.5120/ijca2020920728</li>
         
 
     </div>
-    
 </body>
 <footer>
 </footer>
