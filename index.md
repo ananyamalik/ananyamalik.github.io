@@ -4,38 +4,25 @@ layout: about
 
 ## About Me
 
-<!-- <img class="profile-picture" src="ananya_profile.jpg"> -->
+I am a first year CS PhD student at [Khoury College of Computer Science](https://www.khoury.northeastern.edu/) at Northeastern University in Boston. I am advised by [Prof Mai ElSherief](https://www.maielsherief.com/). 
 
-I am a first year CS PhD student at [Khoury College of Computer Science](https://www.khoury.northeastern.edu/) at Northeastern University in Boston. I am advised by Prof [Mai ElSherief](https://www.maielsherief.com/). 
-
-Before starting my PhD, I was a Software Engineer with the [Selection Monitoring and Catalog Systems](https://www.amazon.jobs/content/en/teams/e-commerce-foundation/ascs) organization at Amazon in Seattle. Prior to that I was an MS CS student at [Georgia Tech](https://www.gatech.edu/). At Georgia Tech, I was advised by Prof [Srijan Kumar](https://faculty.cc.gatech.edu/~srijan/) in the CLAWS Lab. I also dabble as a Research mentor with [SimPPL](https://simppl.org/).
-
-<!-- ## Updates
-
-- **[August 2025]** Two of my papers have been accepted to EMNLP Findings 🎉. More information coming soon!
-- **[July 2025]** I was selected as a fellow/mentee for [MARS(Mentorship for Alignment Research)](https://www.cambridgeaisafety.org/mars) with [Geodesic Research](https://www.geodesicresearch.org/). Our project centralizes around AI Control 👀
-- **[December 2024]** Our paper on [evaluating models for cultural robustness in hate speech detection](https://arxiv.org/abs/2410.20490) accepted as an oral presentation at the SafeGenAI at NeurIPS!
-- **[September 2024]** Started my PhD at Northeastern University
-- **[January 2024]** Volunteering as a research Mentor at [SimPPL](https://simppl.org/)
-- **[August 2023]** Started working as a Software Develpoment Engineer at [ASCS @ Amazon](https://www.amazon.jobs/content/en/teams/e-commerce-foundation/ascs)
-- **[February 2023]** Started as a full-time researcher and data engineer at [CLAWS Lab](https://faculty.cc.gatech.edu/~srijan/), Georgia Tech
-- **[December 2022]** Graduated with MS CS from Georgia Tech -->
+Before starting my PhD, I was a Software Engineer with the [Selection Monitoring and Catalog Systems](https://www.amazon.jobs/content/en/teams/e-commerce-foundation/ascs) organization at Amazon in Seattle. Prior to that I was an MS CS student at [Georgia Tech](https://www.gatech.edu/). At Georgia Tech, I was advised by [Prof Srijan Kumar](https://faculty.cc.gatech.edu/~srijan/) in the CLAWS Lab. I also dabble as a Research mentor with [SimPPL](https://simppl.org/).
 
 ## Research Interest
 
 I am interested in designing, evaluating, and aligning AI systems to maximize social benefit while minimizing risks. My work sits at the intersection of natural language processing (NLP), AI alignment, AI safety, and the study of online communities, with a focus on how AI can be more empathetic, fair, and socially aware.
 
-1. AI Safety and Personalization
+🤖👤 AI Safety and Personalization
 
 I deeply interested in studying how LLMs behave and can be made safer and more aligned. My past work has investigated the impact of incorporating user personas and contextual information in the model's behaviour, value alignment, and empathetic capabilities [TBD]. I have been able to explore this impact through both [explicit personas of genders](https://arxiv.org/pdf/2311.14788)) as well as the effect of implicit user personas through dialect [(SafeGenAI Oral Presentation @ NeurIPS'24)](https://arxiv.org/abs/2410.20490). Recently, I have been investigating how the addition of personas and contextual signals into large language models can guide their behavior toward safer, value-aligned outputs.
 
 My ongoing work with [Geodesic Research](https://www.geodesicresearch.org/) @ MARS has been exploring different and internal pathways toward AI control, more on that coming soon!
 
-2. Value Based Alignment:
+🤖🤝✨ Value Based Alignment:
 
 I am interested in studying how we can align models with human values, with a particular focus on maintaining emotional safety. In my recent work (to appear in EMNLP 2025; paper coming soon 👀), we found that models are highly influenced by a user’s context, often resulting in disproportionate variation in their empathetic capabilities. A further deep dive, conducted by Bangzhao Shu in a paper currently under submission, shows that models express emotions in ways that differ systematically from human emotional expression. Building on these findings, I am exploring ways to reduce this divergence and develop methods that make models emotionally safe, ensuring their responses are consistent, empathetic, and aligned with human expectations.
 
-3. Understanding and Analyzing for Social Good Applications:
+🤝🌐 Understanding and Analyzing for Social Good Applications:
 
 In the past, I have studied how AI can support healthier online communities. This includes analyzing misinformation on social media, categorizing [hate speech reasoning](https://ananyamalikk.substack.com/p/intent-to-hate), and [identifying dog whistles](https://drive.google.com/file/d/1hYIJjy92jo9VgBmfIY3AZTr-KUbr0dTa/view). These projects aim to create actionable tools and interventions that make digital spaces safer, more inclusive, and resilient, combining technical research with real-world social impact.
 
