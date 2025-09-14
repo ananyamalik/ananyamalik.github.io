@@ -22,5 +22,5 @@ is_contact: true
 ## Social
 
 1. [Facebook](#)
-2. [Twitter](#)
+2. [Twitter](https://x.com/ananyamalikk)
 3. [Google+](#)
