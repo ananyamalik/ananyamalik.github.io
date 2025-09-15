@@ -29,10 +29,14 @@
         position: absolute;
         left: -30px;
     }
-    h1, h2, h3, h4, h5, h6 {
+    h1, h2 {
+        font-family: 'Reddit Sans', sans-serif;
         color: #5b84c2;
         font-weight: bold;
     }    
+    h3, h4 {
+        font-weight: bold;
+    }
     blockquote {
         //border: 1px solid black;
         border-left: 5px solid #333333;
