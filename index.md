@@ -4,7 +4,7 @@ layout: about
 
 ## About Me
 
-I am a first year CS PhD student at [Khoury College of Computer Science](https://www.khoury.northeastern.edu/) at Northeastern University in Boston. I am advised by [Prof Mai ElSherief](https://www.maielsherief.com/). 
+I am a second year CS PhD student at [Khoury College of Computer Science](https://www.khoury.northeastern.edu/) at Northeastern University in Boston. I am advised by [Prof Mai ElSherief](https://www.maielsherief.com/).
 
 Before starting my PhD, I was a Software Engineer with the [Selection Monitoring and Catalog Systems](https://www.amazon.jobs/content/en/teams/e-commerce-foundation/ascs) organization at Amazon in Seattle. Prior to that I was an MS CS student at [Georgia Tech](https://www.gatech.edu/). At Georgia Tech, I was advised by [Prof Srijan Kumar](https://faculty.cc.gatech.edu/~srijan/) in the CLAWS Lab. I also dabble as a Research mentor with [SimPPL](https://simppl.org/).
 
