@@ -12,6 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans:wght@700&display=swap" rel="stylesheet">
 
     <style>
+        .wrapper {
+            min-height: 100%;
+            padding-top: 50px;  /* adds space above the navbar */
+            padding-bottom: 50px; /* optional bottom spacing */
+        }
+
         .container {
             max-width: 1000px;
             margin: auto;
@@ -84,7 +90,7 @@
                 <!-- Left: profile photo + updates -->
                 <div class="about-left">
                     <figure style="margin: 0;">
-                        <img class="profile-picture" src="{{ site.profile_picture | default: '/ananya_profile.jpg' }}" alt="Profile photo" style="width: 100%; height: auto; border-radius: 8px;">
+                        <img class="profile-picture" src="{{ site.profile_picture | default: '/ananya_profile.jpg' }}" alt="Profile photo" style="width: 75%; height: auto; border-radius: 8px;">
                         <figcaption style="text-align: center; margin-top: 0.5em; font-style: italic; color: #555;">
                             CS PhD Student, 
                             Northeastern University
