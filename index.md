@@ -8,6 +8,61 @@ I am a second year CS PhD student at [Khoury College of Computer Science](https:
 
 Before starting my PhD, I was a Software Engineer with the [Selection Monitoring and Catalog Systems](https://www.amazon.jobs/content/en/teams/e-commerce-foundation/ascs) organization at Amazon in Seattle. Prior to that I was an MS CS student at [Georgia Tech](https://www.gatech.edu/). At Georgia Tech, I was advised by [Prof Srijan Kumar](https://faculty.cc.gatech.edu/~srijan/) in the CLAWS Lab. I also dabble as a Research mentor with [SimPPL](https://simppl.org/).
 
+## Publications
+
+
+<!-- Filtering controls -->
+<select id="filter-year">
+  <option value="all">All Years</option>
+  <option value="2025">2025</option>
+  <option value="2023">2023</option>
+  <option value="2021">2021</option>
+  <option value="2020">2020</option>
+</select>
+
+<select id="filter-conference">
+  <option value="all">All Conferences</option>
+  <option value="EMNLP Findings">EMNLP Findings</option>
+  <option value="NeurIPS SafeGenAI">NeurIPS SafeGenAI</option>
+  <option value="arXiv">arXiv</option>
+  <option value="ITM Web Conf">ITM Web Conf</option>
+  <option value="Elsevier">Elsevier</option>
+  <option value="IJCA">IJCA</option>
+</select>
+
+<div class="publications">
+
+<div class="publication" data-year="2025" data-conference="EMNLP Findings">
+- **Malik, Ananya**, Nazanin Sabri, Melissa Karnaze, and Mai Elsherief.  
+  *Are LLMs Empathetic to All? Investigating the Influence of Multi-Demographic Personas on a Model's Empathy.*  
+  _EMNLP Findings 2025._  
+  [📄 Paper Link](https://arxiv.org/pdf/2510.10328)
+</div>
+
+<!-- (other publications here with same data-year/data-conference attributes) -->
+
+</div>
+
+<script>
+const yearFilter = document.getElementById('filter-year');
+const confFilter = document.getElementById('filter-conference');
+const pubs = document.querySelectorAll('.publication');
+
+function applyFilters() {
+  const year = yearFilter.value;
+  const conf = confFilter.value;
+  pubs.forEach(pub => {
+    const matchYear = (year === 'all' || pub.dataset.year === year);
+    const matchConf = (conf === 'all' || pub.dataset.conference === conf);
+    pub.style.display = (matchYear && matchConf) ? 'block' : 'none';
+  });
+}
+
+yearFilter.addEventListener('change', applyFilters);
+confFilter.addEventListener('change', applyFilters);
+</script>
+
+
 ## Research Interest
 
 I am interested in designing, evaluating, and aligning AI systems to maximize social benefit while minimizing risks. My work sits at the intersection of natural language processing (NLP), AI alignment, AI safety, and the study of online communities, with a focus on how AI can be more empathetic, fair, and socially aware.
@@ -26,19 +81,6 @@ I am interested in studying how we can align models with human values, with a pa
 
 In the past, I have studied how AI can support healthier online communities. This includes analyzing misinformation on social media, categorizing [hate speech reasoning](https://ananyamalikk.substack.com/p/intent-to-hate), and [identifying dog whistles](https://drive.google.com/file/d/1hYIJjy92jo9VgBmfIY3AZTr-KUbr0dTa/view). These projects aim to create actionable tools and interventions that make digital spaces safer, more inclusive, and resilient, combining technical research with real-world social impact.
 
-
-## Publications
-
-- Malik, Ananya; Sharma, Kartik; Ng Lynette Hui Xian; Bhatt, Shaily ”Who Speaks Matters: Analysing the Influence
-of the Speaker’s Ethnicity on Hate Classification.” Accepted to NeurIPS SafeGenAI 2024 (Oral Presentation)
-- Malik, Ananya. ”Evaluating Large Language Models through Gender and Racial Stereotypes.” arXiv preprint
-arXiv:2311.14788 (2023).
-- Successive Image Generation from a Single Sentence, Amogh Parab, Ananya Malik, Arish Damania, Arnav Parekhji,
-Pranit Bari, ITM Web Conf. 40 03017 (2021), DOI: 10.1051/itmconf/20214003017.
-- A.Malik, Y. Javeri, M. Shah, R. Mangrulkar, ‘Impact Analysis of Covid 19 News Headlines on Global Economy’,
-Cyber-Physical Systems for COVID-19, Elsevier.
-- Malik A. Survey paper on applications of generative adversarial networks in the field of social media. Int J Comput
-Appl (IJCA). 2020;175(20):13–18. doi:10.5120/ijca2020920728
 
 ## Academic Service and Groups
 
