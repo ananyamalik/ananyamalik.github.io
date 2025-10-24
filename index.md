@@ -149,10 +149,10 @@ In the past I have explored how AI can support healthier online communities by a
 }
 .publication {
   background-color: transparent; 
-  border: none;                 
-  box-shadow: none;             
-  padding: 0;                  
-  margin-bottom: 1em;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  margin-bottom: 0.05em;
 }
 
 .publication:hover {
@@ -176,7 +176,7 @@ In the past I have explored how AI can support healthier online communities by a
 }
 
 .conf-tag {
-  background-color: #007bff; /* blueish */
+  background-color: #CC7722;
 }
 
 .publication p {
