@@ -8,14 +8,10 @@ I am a second year CS PhD student at [Khoury College of Computer Science](https:
 
 Before starting my PhD, I was a Software Engineer with the [Selection Monitoring and Catalog Systems](https://www.amazon.jobs/content/en/teams/e-commerce-foundation/ascs) organization at Amazon in Seattle. Prior to that I was an MS CS student at [Georgia Tech](https://www.gatech.edu/). At Georgia Tech, I was advised by [Prof Srijan Kumar](https://faculty.cc.gatech.edu/~srijan/) in the CLAWS Lab. I also dabble as a Research mentor with [SimPPL](https://simppl.org/).
 
-## Publications
-
 ## 📝 Publications
 
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1em;">
-  <h3>Publications</h3>
   <div style="display: flex; gap: 0.5em;">
-    <!-- Year Dropdown -->
     <select id="filter-year" class="filter-select">
       <option value="all">All Years</option>
       <option value="2025">2025</option>
@@ -35,30 +31,6 @@ Before starting my PhD, I was a Software Engineer with the [Selection Monitoring
     </div>
 </div>
 
-<!-- Filter Controls -->
-<div class="filter-container">
-  <h3>Filter Publications</h3>
-  <div class="filter-buttons">
-    <select id="filter-year" class="filter-select">
-      <option value="all">All Years</option>
-      <option value="2025">2025</option>
-      <option value="2024">2024</option>
-      <option value="2023">2023</option>
-      <option value="2021">2021</option>
-      <option value="2020">2020</option>
-    </select>
-
-    <select id="filter-conference" class="filter-select">
-      <option value="all">All Conferences</option>
-      <option value="Conference">Conference</option>
-      <option value="Workshop">Workshop</option>
-      <option value="Journal">Journal</option>
-      <option value="Pre-print">Pre-print</option>
-    </select>
-  </div>
-</div>
-
-<!-- Publications List -->
 <div class="publications">
 
 <div class="publication" data-year="2025" data-conference="Conference">
@@ -71,12 +43,12 @@ Before starting my PhD, I was a Software Engineer with the [Selection Monitoring
   <a href="https://arxiv.org/pdf/2510.10328" target="_blank">📄 Paper Link</a></p>
 </div>
 
-<div class="publication" data-year="2025" data-conference="Conference">
+<div class="publication" data-year="2025" data-conference="Conference" data-conference="Workshop">
   <div class="pub-header">
     <span class="tag year-tag">2025</span>
     <span class="tag year-tag">2024</span>
     <span class="tag conf-tag">EMNLP Findings 2025</span>
-    <span class="tag conf-tag">NeurIPS 2024 SafeGenAI Workshop</span>
+    <span class="tag conf-tag">NeurIPS SafeGenAI Workshop</span>
     <span class="tag conf-tag">Oral Presentation</span>
   </div>
   <p><strong>Malik, Ananya</strong>, Sharma, Kartik, Ng Lynette Hui Xian, Bhatt, Shaily.  
