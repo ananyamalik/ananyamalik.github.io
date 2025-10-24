@@ -313,7 +313,7 @@
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 .pub-header {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.05rem;
 }
 .tag {
   display: inline-block;
@@ -354,10 +354,10 @@ function applyFilters() {
   const selectedConf = confFilter.value;
 
   pubs.forEach(pub => {
-    const matchYear = (selectedYear === 'all' || pub.dataset.year === selectedYear);
+    const years = pub.dataset.year.split(',').map(s => s.trim());
+    const matchYear = (selectedYear === 'all' || tears.includes(selectedYear));
     const confs = pub.dataset.conference.split(',').map(s => s.trim());
     const matchConf = (selectedConf === 'all' || confs.includes(selectedConf));
-
     pub.style.display = (matchYear && matchConf) ? 'block' : 'none';
   });
 }
