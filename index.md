@@ -10,38 +10,134 @@ Before starting my PhD, I was a Software Engineer with the [Selection Monitoring
 
 ## Publications
 
+## 📝 Publications
 
-<!-- Filtering controls -->
-<select id="filter-year">
-  <option value="all">All Years</option>
-  <option value="2025">2025</option>
-  <option value="2023">2023</option>
-  <option value="2021">2021</option>
-  <option value="2020">2020</option>
-</select>
+<!-- Filter Controls -->
+<div class="filter-container">
+  <h3>Filter Publications</h3>
+  <div class="filter-buttons">
+    <select id="filter-year" class="filter-select">
+      <option value="all">All Years</option>
+      <option value="2025">2025</option>
+      <option value="2024">2024</option>
+      <option value="2023">2023</option>
+      <option value="2021">2021</option>
+      <option value="2020">2020</option>
+    </select>
 
-<select id="filter-conference">
-  <option value="all">All Conferences</option>
-  <option value="EMNLP Findings">EMNLP Findings</option>
-  <option value="NeurIPS SafeGenAI">NeurIPS SafeGenAI</option>
-  <option value="arXiv">arXiv</option>
-  <option value="ITM Web Conf">ITM Web Conf</option>
-  <option value="Elsevier">Elsevier</option>
-  <option value="IJCA">IJCA</option>
-</select>
+    <select id="filter-conference" class="filter-select">
+      <option value="all">All Conferences</option>
+      <option value="Conference">Conference</option>
+      <option value="Workshop">Workshop</option>
+      <option value="Journal">Journal</option>
+      <option value="Pre-print">Pre-print</option>
+    </select>
+  </div>
+</div>
 
+<!-- Publications List -->
 <div class="publications">
 
-<div class="publication" data-year="2025" data-conference="EMNLP Findings">
-- **Malik, Ananya**, Nazanin Sabri, Melissa Karnaze, and Mai Elsherief.  
-  *Are LLMs Empathetic to All? Investigating the Influence of Multi-Demographic Personas on a Model's Empathy.*  
-  _EMNLP Findings 2025._  
-  [📄 Paper Link](https://arxiv.org/pdf/2510.10328)
+<div class="publication" data-year="2025" data-conference="Conference">
+  <div class="pub-header">
+    <span class="tag year-tag">2025</span>
+    <span class="tag conf-tag">Conference</span>
+  </div>
+  <p><strong>Malik, Ananya</strong>, Nazanin Sabri, Melissa Karnaze, and Mai Elsherief.  
+  <em>Are LLMs Empathetic to All? Investigating the Influence of Multi-Demographic Personas on a Model's Empathy.</em>  
+  <a href="https://arxiv.org/pdf/2510.10328" target="_blank">📄 Paper Link</a></p>
 </div>
 
-<!-- (other publications here with same data-year/data-conference attributes) -->
+<div class="publication" data-year="2025" data-conference="Conference">
+  <div class="pub-header">
+    <span class="tag year-tag">2025</span>
+    <span class="tag year-tag">2024</span>
+    <span class="tag conf-tag">Conference</span>
+    <span class="tag conf-tag">Workshop</span>
+  </div>
+  <p><strong>Malik, Ananya</strong>, Sharma, Kartik, Ng Lynette Hui Xian, Bhatt, Shaily.  
+  <em>Who Speaks Matters: Analysing the Influence of the Speaker’s Ethnicity on Hate Classification.</em>
+    <a href="https://arxiv.org/pdf/2410.20490" target="_blank">📄 Paper Link</a></p>
+</div>
 
 </div>
+
+<style>
+.filter-container {
+  background: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+.filter-container h3 {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.filter-select {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.filter-select:hover {
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0,123,255,0.2);
+}
+
+/* --- Publications --- */
+.publications {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.publication {
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.publication:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+.pub-header {
+  margin-bottom: 0.5rem;
+}
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  margin-right: 0.4rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #fff;
+}
+.year-tag {
+  background: #007bff;
+}
+.conf-tag {
+  background: #6c757d;
+}
+
+/* --- Responsive --- */
+@media (max-width: 600px) {
+  .filter-buttons {
+    flex-direction: column;
+  }
+}
+</style>
 
 <script>
 const yearFilter = document.getElementById('filter-year');
@@ -61,7 +157,6 @@ function applyFilters() {
 yearFilter.addEventListener('change', applyFilters);
 confFilter.addEventListener('change', applyFilters);
 </script>
-
 
 ## Research Interest
 
