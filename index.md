@@ -8,9 +8,8 @@ I am a second year CS PhD student at [Khoury College of Computer Science](https:
 
 Before starting my PhD, I was a Software Engineer with the [Selection Monitoring and Catalog Systems](https://www.amazon.jobs/content/en/teams/e-commerce-foundation/ascs) organization at Amazon in Seattle. Prior to that I was an MS CS student at [Georgia Tech](https://www.gatech.edu/). At Georgia Tech, I was advised by [Prof Srijan Kumar](https://faculty.cc.gatech.edu/~srijan/) in the CLAWS Lab. I also dabble as a Research mentor with [SimPPL](https://simppl.org/).
 
-## 📝 Publications
-
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1em;">
+  <h3>📝 Publications</h3>
   <div style="display: flex; gap: 0.5em;">
     <select id="filter-year" class="filter-select">
       <option value="all">All Years</option>
@@ -43,7 +42,7 @@ Before starting my PhD, I was a Software Engineer with the [Selection Monitoring
   <a href="https://arxiv.org/pdf/2510.10328" target="_blank">📄 Paper Link</a></p>
 </div>
 
-<div class="publication" data-year="2025" data-conference="Conference" data-conference="Workshop">
+<div class="publication" data-year="2025" data-conference="Conference Workshop">
   <div class="pub-header">
     <span class="tag year-tag">2025</span>
     <span class="tag year-tag">2024</span>
@@ -60,34 +59,37 @@ Before starting my PhD, I was a Software Engineer with the [Selection Monitoring
 
 <style>
 .filter-container {
-  background: #f8f9fa;
-  border: 1px solid #e0e0e0;
-  padding: 1rem;
-  border-radius: 12px;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  background: transparent;      /* remove light background */
+  border: none;                 /* remove border */
+  padding: 0;                   /* remove extra padding */
+  border-radius: 0;             /* no rounded corners */
+  margin-bottom: 1rem;          /* keep spacing below */
+  box-shadow: none;             /* remove shadow */
+  display: flex;
+  justify-content: flex-end;    /* align filters right */
+  gap: 0.5rem;                  /* small spacing between dropdowns */
+  align-items: center;          /* vertically center with heading if needed */
 }
+
 .filter-container h3 {
   font-weight: 600;
-  margin-bottom: 0.75rem;
+  margin: 0;                    /* remove extra bottom margin */
+  margin-right: auto;           /* push dropdowns to the right */
 }
-.filter-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
+
 .filter-select {
-  padding: 0.5rem 0.75rem;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  background: #fff;
-  font-size: 0.95rem;
+  padding: 0.25rem 0.5rem;      /* smaller, compact dropdowns */
+  border: 1px solid #ccc;       /* subtle border only */
+  border-radius: 4px;           /* small rounded corners */
+  background: transparent;       /* matches page background */
+  font-size: 0.85rem;            /* smaller font for compact look */
   cursor: pointer;
   transition: all 0.2s ease;
 }
+
 .filter-select:hover {
-  border-color: #007bff;
-  box-shadow: 0 0 4px rgba(0,123,255,0.2);
+  border-color: #007bff;        /* subtle hover effect */
+  box-shadow: none;              /* remove shadow */
 }
 
 /* --- Publications --- */
@@ -97,13 +99,13 @@ Before starting my PhD, I was a Software Engineer with the [Selection Monitoring
   gap: 1.25rem;
 }
 .publication {
-  background: #ffffff;
-  border: 1px solid #eaeaea;
-  border-radius: 12px;
-  padding: 1rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.03);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: transparent; 
+  border: none;                 
+  box-shadow: none;             
+  padding: 0;                  
+  margin-bottom: 1em;
 }
+
 .publication:hover {
   transform: translateY(-3px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
@@ -121,10 +123,15 @@ Before starting my PhD, I was a Software Engineer with the [Selection Monitoring
   color: #fff;
 }
 .year-tag {
-  background: #007bff;
+  background-color: #6c757d; /* grayish */
 }
+
 .conf-tag {
-  background: #6c757d;
+  background-color: #007bff; /* blueish */
+}
+
+.publication p {
+  margin: 0;
 }
 
 /* --- Responsive --- */
