@@ -202,7 +202,7 @@ function applyFilters() {
 
   pubs.forEach(pub => {
     const years = pub.dataset.year.split(',').map(s => s.trim());
-    const matchYear = (selectedYear === 'all' || tears.includes(selectedYear));
+    const matchYear = (selectedYear === 'all' || years.includes(selectedYear));
     const confs = pub.dataset.conference.split(',').map(s => s.trim());
     const matchConf = (selectedConf === 'all' || confs.includes(selectedConf));
     pub.style.display = (matchYear && matchConf) ? 'block' : 'none';
