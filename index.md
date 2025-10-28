@@ -14,11 +14,11 @@ I am interested in designing, evaluating, and aligning AI systems to maximize so
 
 ### 🤖👤 AI Safety and Personalization
 
-I study how LLMs can be safer and more aligned with human values. My work examines how personas and [context shape model empathy](https://arxiv.org/pdf/2510.10328) and behavior—across explicit identities and implicit cues like [dialect](https://arxiv.org/abs/2410.20490). I’m currently exploring how contextual signals can guide models toward safer, aligned outputs with [Geodesic Research](https://www.geodesicresearch.org/).
+I study how LLMs can be safer and more aligned with human values. My work examines how personas and [context shape model empathy](https://arxiv.org/pdf/2510.10328) and behavior—across explicit identities like culture, age and [gender](https://arxiv.org/pdf/2311.14788) and implicit cues like [dialect](https://arxiv.org/abs/2410.20490). I’m currently exploring how interjections can control models toward safer, aligned outputs with [Geodesic Research](https://www.geodesicresearch.org/).
 
 ### 🤖🤝✨ Value Based Alignment
 
-I focus on aligning AI systems with human values, emphasizing emotional safety and empathy. My recent [EMNLP Paper](https://arxiv.org/pdf/2510.10328) shows how user context drives variation in model empathy. I’m developing methods to define what undertakes emotionally-safe behaviour and how to reduce this gap and ensure models express emotionally safe behaviour, and ensuring their responses are consistent, empathetic, and aligned with human expectations.
+I focus on aligning AI systems with human values, emphasizing emotional safety and empathy. My recent [EMNLP Paper](https://arxiv.org/pdf/2510.10328) shows how user context drives variation in model empathy. I’m developing methods to define what undertakes emotionally-safe behaviour and how to reduce this gap, ensure models express emotionally safe behaviour, and that their responses are consistent, empathetic, and aligned with human expectations.
 
 ### 🤝🌐 Understanding and Analyzing for Social Good Applications
 
