@@ -54,7 +54,7 @@ In the past I have explored how AI can support healthier online communities by a
   </div>
   <p><strong>Malik, Ananya</strong>, Nazanin Sabri, Melissa Karnaze, and Mai Elsherief.  
   <em>Are LLMs Empathetic to All? Investigating the Influence of Multi-Demographic Personas on a Model's Empathy.</em>  
-  <a href="https://arxiv.org/pdf/2510.10328" target="_blank">📄 Paper Link</a></p>
+  <a href="https://aclanthology.org/2025.findings-emnlp.1358/" target="_blank">📄 Paper Link</a></p>
 </div>
 
 <div class="publication" data-year="2025, 2024" data-conference="Conference,Workshop">
@@ -65,7 +65,7 @@ In the past I have explored how AI can support healthier online communities by a
   </div>
   <p><strong>Malik, Ananya</strong>, Sharma, Kartik, Ng Lynette Hui Xian, Bhatt, Shaily.  
   <em>Who Speaks Matters: Analysing the Influence of the Speaker’s Ethnicity on Hate Classification.</em>
-    <a href="https://arxiv.org/pdf/2410.20490" target="_blank">📄 Paper Link</a></p>
+    <a href="https://aclanthology.org/2025.findings-emnlp.1357/" target="_blank">📄 Paper Link</a></p>
 </div>
 
 <div class="publication" data-year="2023" data-conference="Pre-print">
