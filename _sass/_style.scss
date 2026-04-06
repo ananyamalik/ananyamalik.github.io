@@ -29,6 +29,25 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.updates {
+    height: 300px;          /* Adjust this height to your preference */
+    overflow-y: auto;       /* Adds the scrollbar only when content exceeds the height */
+    padding-right: 15px;    /* Optional: adds space so text doesn't touch the scrollbar */
+    border: 1px solid #eee; /* Optional: helps define the area */
+}
+
+/* Optional: Make the scrollbar look a bit cleaner */
+.updates::-webkit-scrollbar {
+    width: 8px;
+}
+.updates::-webkit-scrollbar-thumb {
+    background: #ccc; 
+    border-radius: 4px;
+}
+.updates::-webkit-scrollbar-thumb:hover {
+    background: #888; 
+}
+
 /*
  * Navbar
  */
