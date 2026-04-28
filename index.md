@@ -12,7 +12,7 @@ Before starting my PhD, I was a Software Engineer with the [Selection Monitoring
 
 I am interested in designing AI that are safer, more controllable, and socially aligned. My research areas broadly focus on the following:
 
-### Personalization
+### 🤹🏼 Personalization
 
 * **How do models internalize and represent human personas?** I explore how latent subspaces can be used to enable more precise behavioral control.
 * **How does user context influence model behavior?** My research examines how [context drives variation in empathy](https://arxiv.org/pdf/2510.10328) and how models respond to implicit cues such as [dialect](https://arxiv.org/abs/2410.20490) or identity.
@@ -23,11 +23,6 @@ I am interested in designing AI that are safer, more controllable, and socially 
 * **Can we steer models toward safer behavior without retraining?** I use activation patching and causal mediation analysis to identify internal circuits and develop inference-time methods for bias mitigation.
 * **How can we make model reasoning more robust?** I research ways to [steer chain-of-thought processes using light weight interventions](https://openreview.net/forum?id=v0XkjgeD6U&referrer=%5Bthe%20profile%20of%20Ananya%20Malik%5D(%2Fprofile%3Fid%3D~Ananya_Malik1)) to ensure that a model’s logical "thought" traces are consistent and aligned with human expectations.
 * **How do we identify adversarial and negative LLM behavior?** I study what triggers and how to stop model's harmful social behavior.
-
-
-### 🤖🤝✨ Value Based Alignment
-
-I focus on aligning AI systems with human values, emphasizing emotional safety and empathy. My recent [EMNLP Paper](https://arxiv.org/pdf/2510.10328) shows how user context drives variation in model empathy. I’m developing methods to define what undertakes emotionally-safe behaviour and how to reduce this gap, ensure models express emotionally safe behaviour, and that their responses are consistent, empathetic, and aligned with human expectations.
 
 ### 🤝🌐 Computational Social Science
 
