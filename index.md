@@ -10,19 +10,29 @@ Before starting my PhD, I was a Software Engineer with the [Selection Monitoring
 
 ## Research Interest
 
-I am interested in designing, evaluating, and aligning AI systems to maximize social benefit while minimizing risks. My work sits at the intersection of natural language processing (NLP), AI alignment, AI safety, and the study of online communities, with a focus on how AI can be more empathetic, fair, and socially aware.
+I am interested in designing AI that are safer, more controllable, and socially aligned. My research areas broadly focus on the following:
 
-### 🤖👤 AI Safety and Personalization
+### Personalization
 
-I study how LLMs can be safer and more aligned with human values. My work examines how personas and [context shape model empathy](https://arxiv.org/pdf/2510.10328) and behavior—across explicit identities like culture, age and [gender](https://arxiv.org/pdf/2311.14788) and implicit cues like [dialect](https://arxiv.org/abs/2410.20490). I’m currently exploring how interjections can control models toward safer, aligned outputs with [Geodesic Research](https://www.geodesicresearch.org/).
+* **How do models internalize and represent human personas?** I explore how latent subspaces can be used to enable more precise behavioral control.
+* **How does user context influence model behavior?** My research examines how [context drives variation in empathy](https://arxiv.org/pdf/2510.10328) and how models respond to implicit cues such as [dialect](https://arxiv.org/abs/2410.20490) or identity.
+* **How do LLMs build internal "maps" of the world?** I investigate how geographic and spatial knowledge is structured within a model's weights and how this impacts downstream reasoning.
+
+### 🛡️ AI Safety and Social Alignment
+
+* **Can we steer models toward safer behavior without retraining?** I use activation patching and causal mediation analysis to identify internal circuits and develop inference-time methods for bias mitigation.
+* **How can we make model reasoning more robust?** I research ways to [steer chain-of-thought processes using light weight interventions](https://openreview.net/forum?id=v0XkjgeD6U&referrer=%5Bthe%20profile%20of%20Ananya%20Malik%5D(%2Fprofile%3Fid%3D~Ananya_Malik1)) to ensure that a model’s logical "thought" traces are consistent and aligned with human expectations.
+* **How do we identify adversarial and negative LLM behavior?** I study what triggers and how to stop model's harmful social behavior.
+
 
 ### 🤖🤝✨ Value Based Alignment
 
 I focus on aligning AI systems with human values, emphasizing emotional safety and empathy. My recent [EMNLP Paper](https://arxiv.org/pdf/2510.10328) shows how user context drives variation in model empathy. I’m developing methods to define what undertakes emotionally-safe behaviour and how to reduce this gap, ensure models express emotionally safe behaviour, and that their responses are consistent, empathetic, and aligned with human expectations.
 
-### 🤝🌐 Understanding and Analyzing for Social Good Applications
+### 🤝🌐 Computational Social Science
 
-In the past I have explored how AI can support healthier online communities by analyzing misinformation, [hate speech reasoning](https://ananyamalikk.substack.com/p/intent-to-hate), and [identifying dog whistles](https://drive.google.com/file/d/1hYIJjy92jo9VgBmfIY3AZTr-KUbr0dTa/view). My goal is to build tools that make digital spaces safer, more inclusive, and socially aware.
+* **How can AI support healthier online communities?** My work focuses on building tools that identify nuanced social phenomena, such as [detecting dog whistles](https://drive.google.com/file/d/1hYIJjy92jo9VgBmfIY3AZTr-KUbr0dTa/view) and analyzing the [reasoning behind hate speech](https://ananyamalikk.substack.com/p/intent-to-hate).
+* **How does AI interpret intent in digital spaces?** I explore how NLP frameworks and prompt optimization can be applied to study rampant [motherhood burnout](https://arxiv.org/abs/2602.07781) as expressed in reddit communities
 
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1em;">
   <h2>Publications</h2>
