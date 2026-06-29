@@ -29,7 +29,7 @@ I design AI systems that are safer, more controllable, and socially and cognitiv
 * **Behavioral Detection:** Identifying, studying, and neutralizing adversarial, harmful, or negative social behaviors in LLMs.
 * **Intent Analysis:** Applying optimized prompts to analyze social trends, such as digital expressions of [motherhood burnout](https://arxiv.org/abs/2602.07781).
 
------
+---
 
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1em;">
   <h2>Publications</h2>

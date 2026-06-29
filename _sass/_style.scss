@@ -1,84 +1,151 @@
-// Profile photo
-nav ul {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-   
-  nav ul li::marker {
-    content: none;
-  }
- 
-  
-.profile-picture {
-    width: 120px !important;
-    height: 120px !important;
-    max-width: 120px !important;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 2px solid #d0d8e8;
-    display: block;
-    margin-bottom: 0.5rem;
-  }
-  
-  // Section headings
-  h2 {
-    margin-top: 2rem;
-    padding-bottom: 0.2rem;
-    border-bottom: 1px solid #e0e4ec;
-  }
-  
-  // Links
-  a {
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 3px;
-  }
-  
-  // Publication entries
-  .publication {
-    margin-bottom: 1.1rem;
-  }
-  
-  .tag {
-    font-size: 0.72rem;
-    font-weight: 600;
-    padding: 0.2rem 0.55rem;
-    border-radius: 4px;
-  }
-  
-  .conf-tag {
-    background-color: #27548A;
-    color: #fff;
-  }
-  
-  .year-tag {
-    background-color: #6b7280;
-    color: #fff;
-  }
-  
-  .publication p {
-    font-size: 0.95rem;
-    line-height: 1.6;
-    margin: 0.2rem 0 0;
-  }
-  
-  // List spacing
-  ul li {
-    margin-bottom: 0.3rem;
-  }
-  
-  // Horizontal rules
-  hr {
-    border: none;
-    border-top: 1px solid #e0e4ec;
-    margin: 2rem 0;
-  }
+@import "vars";
 
+/*
+ * Basic
+ */
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    background-color: rgba(246, 241, 236, 0.927);
+}
+a {
+    text-decoration: none;
+    color: $accent;
+}
+a:hover {
+    text-decoration: underline;
+}
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.updates {
+    height: 300px;          /* Adjust this height to your preference */
+    overflow-y: auto;       /* Adds the scrollbar only when content exceeds the height */
+    padding-right: 15px;    /* Optional: adds space so text doesn't touch the scrollbar */
+    border: 1px solid #eee; /* Optional: helps define the area */
+}
+
+.updates::-webkit-scrollbar {
+    width: 8px;
+}
+.updates::-webkit-scrollbar-thumb {
+    background: #ccc; 
+    border-radius: 4px;
+}
+.updates::-webkit-scrollbar-thumb:hover {
+    background: #888; 
+}
+
+/*
+ * Navbar
+ */
+
+#author-name {
+    font-family: 'Reddit Sans', sans-serif;
+    font-size: 34px;
+    color: #e34d11;
+    display: inline-block;
+}
+.navbar {
+    padding: 50px 0 50px 0;
+}
+.navbar-ul {
+    display: inline-block;
+    margin: 0;
+    padding: 5px 0 5px 0;
+    margin-left: 20px;
+}
+.nav-list {
+    list-style-type: none;
+    margin: 0 5px 0 10px;
+}
+.alignable {
+    display: inline-block;
+}
+.pull-left {
+    @extend .alignable;
+    float: left;
+}
+.pull-right {
+    @extend .alignable;
+    float: right;
+}
+
+/* Divs */
+
+.container {
+    max-width: $max-width;
+    margin: auto;
+}
+.wrapper {
+    min-height: 100%;
+}
+
+/* Institute Image */
+
+#ins-logo {
+	margin: auto;
+	display: block;
+	max-height: 100px;
+	text-align: center;
+}
+
+/* Mobile */
+
+@media (max-width: 800px) {
+    .container {
+        max-width: $med-width;
+        transition: 0.3s ease all;
+    }
+}
+
+@media (max-width: 650px) {
+    .container {
+        max-width: 83%;
+    }
+    .navbar-ul {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 500px) {
+	.navbar {
+		text-align: center;
+		padding: 50px 0px 0px 0px;
+	}
+	#author-name {
+		width: 100%;
+		float: none;
+	}
+	#navlist {
+		padding: 10px 0 10px 0;
+		margin: 0;
+		display: block;
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	#navlist li.alignable {
+		display: inline-block;
+	}
+	#navlist li.pull-left {
+		float: none;
+	}
+	#navlist li.nav-list {
+		margin: 0;
+	}
+}
+
+@import "typography";
+@import "tables";
