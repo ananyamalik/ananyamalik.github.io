@@ -2,13 +2,12 @@
 layout: about
 ---
 
-<div style="display:flex; align-items:flex-start; gap:1.8rem; margin-bottom:1.5rem;">
-  <img class="profile-picture" src="ananya_profile.jpg" alt="Ananya Malik" style="width:120px; height:120px; border-radius:50%; object-fit:cover; flex-shrink:0; margin-top:0.2rem;">
+<div style="display:flex;align-items:flex-start;gap:1.5rem;margin-bottom:1.5rem;">
+  <img src="ananya_profile.jpg" alt="Ananya Malik" style="width:120px;height:120px;border-radius:50%;object-fit:cover;flex-shrink:0;">
   <div>
-    <h2 style="margin:0 0 0.2rem;">Ananya Malik</h2>
-    <p style="margin:0 0 0.5rem;">CS PhD Student · <a href="https://www.khoury.northeastern.edu/">Khoury College</a>, Northeastern University<br>
-    Advised by <a href="https://www.maielsherief.com/">Prof. Mai ElSherief</a></p>
-    <p style="margin:0; font-size:0.9em;">
+    <h2 style="margin:0 0 0.25rem;font-size:1.4rem;">Ananya Malik</h2>
+    <p style="margin:0 0 0.4rem;font-size:0.95rem;">CS PhD Student · <a href="https://www.khoury.northeastern.edu/">Khoury College</a>, Northeastern University<br>Advised by <a href="https://www.maielsherief.com/">Prof. Mai ElSherief</a></p>
+    <p style="margin:0;font-size:0.88rem;">
       <a href="mailto:malik.ana@northeastern.edu">Email</a> &nbsp;·&nbsp;
       <a href="resume.pdf">CV</a> &nbsp;·&nbsp;
       <a href="https://scholar.google.com/citations?user=DJh6B0sAAAAJ">Google Scholar</a> &nbsp;·&nbsp;
@@ -68,7 +67,7 @@ I design AI systems that are safer, more controllable, and socially and cognitiv
 
 ## Publications
 
-<div style="display:flex; justify-content:flex-end; gap:0.5rem; align-items:center; margin-bottom:1rem;">
+<div style="display:flex;justify-content:flex-end;gap:0.5rem;margin-bottom:1rem;">
   <select id="filter-year" class="filter-select">
     <option value="all">All Years</option>
     <option value="2025">2025</option>
@@ -89,84 +88,55 @@ I design AI systems that are safer, more controllable, and socially and cognitiv
 <div class="publications">
 
 <div class="publication" data-year="2025" data-conference="Conference">
-<div class="pub-header">
-  <span class="tag year-tag">2025</span>
-  <span class="tag conf-tag">EMNLP Findings 2025</span>
-</div>
+<div class="pub-header"><span class="tag year-tag">2025</span><span class="tag conf-tag">EMNLP Findings 2025</span></div>
 <p><strong>Malik, Ananya</strong>, Nazanin Sabri, Melissa Karnaze, and Mai Elsherief. <em>Are LLMs Empathetic to All? Investigating the Influence of Multi-Demographic Personas on a Model's Empathy.</em> <a href="https://aclanthology.org/2025.findings-emnlp.1358/">Paper</a></p>
 </div>
 
 <div class="publication" data-year="2025,2024" data-conference="Conference,Workshop">
-<div class="pub-header">
-  <span class="tag year-tag">2025</span>
-  <span class="tag conf-tag">EMNLP Findings 2025</span>
-  <span class="tag conf-tag">NeurIPS SafeGenAI Workshop — Oral</span>
-</div>
+<div class="pub-header"><span class="tag year-tag">2025</span><span class="tag conf-tag">EMNLP Findings 2025</span><span class="tag conf-tag">NeurIPS SafeGenAI Workshop — Oral</span></div>
 <p><strong>Malik, Ananya</strong>, Sharma, Kartik, Ng Lynette Hui Xian, Bhatt, Shaily. <em>Who Speaks Matters: Analysing the Influence of the Speaker's Ethnicity on Hate Classification.</em> <a href="https://aclanthology.org/2025.findings-emnlp.1357/">Paper</a></p>
 </div>
 
 <div class="publication" data-year="2023" data-conference="Pre-print">
-<div class="pub-header">
-  <span class="tag year-tag">2023</span>
-  <span class="tag conf-tag">Pre-print</span>
-</div>
+<div class="pub-header"><span class="tag year-tag">2023</span><span class="tag conf-tag">Pre-print</span></div>
 <p><strong>Malik, Ananya</strong>. <em>Evaluating Large Language Models through Gender and Racial Stereotypes.</em> <a href="https://arxiv.org/pdf/2311.14788">Paper</a></p>
 </div>
 
 <div class="publication" data-year="2021" data-conference="Conference">
-<div class="pub-header">
-  <span class="tag year-tag">2021</span>
-  <span class="tag conf-tag">ITM Web Conference</span>
-</div>
+<div class="pub-header"><span class="tag year-tag">2021</span><span class="tag conf-tag">ITM Web Conference</span></div>
 <p>Amogh Parab, <strong>Ananya Malik</strong>, Arish Damania, Arnav Parekhji. <em>Successive Image Generation from a Single Sentence.</em> <a href="https://www.itm-conferences.org/articles/itmconf/abs/2021/05/itmconf_icacc2021_03017/itmconf_icacc2021_03017.html">Paper</a></p>
 </div>
 
 <div class="publication" data-year="2021" data-conference="Journal">
-<div class="pub-header">
-  <span class="tag year-tag">2021</span>
-  <span class="tag conf-tag">Elsevier</span>
-</div>
+<div class="pub-header"><span class="tag year-tag">2021</span><span class="tag conf-tag">Elsevier</span></div>
 <p><strong>A. Malik</strong>, Y. Javeri, M. Shah, R. Mangrulkar. <em>Impact Analysis of Covid-19 News Headlines on Global Economy.</em> Cyber-Physical Systems for COVID-19, Elsevier. <a href="https://www.sciencedirect.com/science/article/abs/pii/B9780128245576000017">Paper</a></p>
 </div>
 
 <div class="publication" data-year="2020" data-conference="Journal">
-<div class="pub-header">
-  <span class="tag year-tag">2020</span>
-  <span class="tag conf-tag">IJCA</span>
-</div>
+<div class="pub-header"><span class="tag year-tag">2020</span><span class="tag conf-tag">IJCA</span></div>
 <p><strong>A. Malik</strong>. <em>Survey paper on applications of generative adversarial networks in the field of social media.</em> <a href="https://d1wqtxts1xzle7.cloudfront.net/93533194/ijca2020920728-libre.pdf">Paper</a></p>
 </div>
 
 </div>
 
 <style>
-.publications { display:flex; flex-direction:column; gap:1.1rem; }
-.publication { padding:0; border:none; background:transparent; }
-.pub-header { margin-bottom:0.25rem; }
-.tag { display:inline-block; padding:0.15rem 0.5rem; margin-right:0.3rem; border-radius:4px; font-size:0.75rem; font-weight:600; }
-.year-tag { background:#6b7280; color:#fff; }
-.conf-tag { background:#4a6fa5; color:#fff; }
-.publication p { margin:0; font-size:0.95rem; }
-.filter-select { padding:0.2rem 0.4rem; border:1px solid #ccc; border-radius:4px; font-size:0.85rem; }
-@media (max-width:480px) {
-  div[style*="display:flex"][style*="align-items:flex-start"] { flex-direction:column; }
+.publications{display:flex;flex-direction:column;gap:1.1rem;}
+.publication{padding:0;border:none;background:transparent;}
+.pub-header{margin-bottom:0.25rem;}
+.tag{display:inline-block;padding:0.15rem 0.5rem;margin-right:0.3rem;border-radius:4px;font-size:0.75rem;font-weight:600;}
+.year-tag{background:#6b7280;color:#fff;}
+.conf-tag{background:#27548A;color:#fff;}
+.publication p{margin:0;font-size:0.95rem;}
+.filter-select{padding:0.2rem 0.4rem;border:1px solid #ccc;border-radius:4px;font-size:0.85rem;}
+@media(max-width:480px){
+  div[style*="display:flex"][style*="border-radius:50%"]{flex-direction:column;}
 }
 </style>
 
 <script>
-const yearFilter = document.getElementById('filter-year');
-const confFilter = document.getElementById('filter-conference');
-const pubs = document.querySelectorAll('.publication');
-function applyFilters() {
-  const y = yearFilter.value, c = confFilter.value;
-  pubs.forEach(p => {
-    const ys = p.dataset.year.split(',').map(s=>s.trim());
-    const cs = p.dataset.conference.split(',').map(s=>s.trim());
-    p.style.display = ((y==='all'||ys.includes(y)) && (c==='all'||cs.includes(c))) ? 'block' : 'none';
-  });
-}
-yearFilter.addEventListener('change', applyFilters);
-confFilter.addEventListener('change', applyFilters);
+const yF=document.getElementById('filter-year'),cF=document.getElementById('filter-conference'),ps=document.querySelectorAll('.publication');
+function applyFilters(){const y=yF.value,c=cF.value;ps.forEach(p=>{const ys=p.dataset.year.split(',').map(s=>s.trim()),cs=p.dataset.conference.split(',').map(s=>s.trim());p.style.display=((y==='all'||ys.includes(y))&&(c==='all'||cs.includes(c)))?'block':'none';});}
+yF.addEventListener('change',applyFilters);cF.addEventListener('change',applyFilters);
 </script>
 
 ---
