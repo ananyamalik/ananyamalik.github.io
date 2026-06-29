@@ -8,139 +8,139 @@
 // to Lora (set in vars.scss) for an academic serif feel, while keeping
 // the nav in a lighter sans so it doesn't compete with the content.
 body {
-  font-family: $font-family;
-  font-size: 16.5px;          // slightly larger than theme default (16px)
-  line-height: 1.75;          // generous leading for dense academic prose
-  color: #1a1a1a;
-}
-
-// Navigation stays sans-serif — it's chrome, not content.
-nav, nav a {
-  font-family: 'Source Sans 3', sans-serif;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-}
-
-// The site title / name in the header
-#page-title {
-  font-family: 'Lora', serif;
-  font-weight: 600;
-  letter-spacing: -0.01em;
-}
-
-// ─── Profile photo ───────────────────────────────────────────────────────────
-// The default .profile-picture rule in the researcher theme renders the
-// photo quite large (often 200–250px). For an academic page the photo
-// should be a modest headshot, not a hero image. We set it to 130px,
-// add a subtle border, and keep the circular crop the theme provides.
-.profile-picture {
-  width: 130px !important;
-  height: 130px !important;
-  max-width: 130px !important;  // override the theme's max-width: 30% rule
-  object-fit: cover;
-  border-radius: 50%;
-  border: 2px solid #d0d8e8;
-  display: block;
-  margin-bottom: 0.5rem;
-}
-
-// ─── Headings ────────────────────────────────────────────────────────────────
-// Use Lora for section headings; slightly reduced weight so they feel
-// literary rather than loud.
-h1, h2, h3, h4 {
-  font-family: 'Lora', serif;
-  font-weight: 500;
-  line-height: 1.3;
-  color: #111;
-}
-
-h2 {
-  font-size: 1.25rem;
-  margin-top: 2rem;
-  padding-bottom: 0.2rem;
-  border-bottom: 1px solid #e0e4ec;  // thin rule under section headers
-}
-
-h3 {
-  font-size: 1.05rem;
-  margin-top: 1.4rem;
-  color: #2c2c2c;
-}
-
-// ─── Links ───────────────────────────────────────────────────────────────────
-// The $accent value from vars.scss is already applied by the theme.
-// We just remove the underline by default and add it on hover for
-// a cleaner look in dense publication lists.
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
-}
-
-// ─── Publication entries ─────────────────────────────────────────────────────
-// The index.md wraps each pub in <div class="publication">.
-// These rules make the venue tags and paper links look polished.
-.publication {
-  margin-bottom: 1.1rem;
-}
-
-// Venue / conference badge
-.tag {
-  font-family: 'JetBrains Mono', 'Courier New', monospace;
-  font-size: 0.72rem;
-  font-weight: 500;
-  letter-spacing: 0.03em;
-  padding: 0.2rem 0.55rem;
-  border-radius: 4px;
-}
-
-.conf-tag {
-  background-color: #4a6fa5;  // matches $accent
-  color: #fff;
-}
-
-.year-tag {
-  background-color: #6b7280;
-  color: #fff;
-}
-
-// Publication text: author list in a lighter weight, title in italic
-// (the .md already wraps titles in * * for <em>)
-.publication p {
-  font-size: 0.95rem;
-  line-height: 1.6;
-  margin: 0.2rem 0 0;
-  color: #222;
-}
-
-// ─── Filter selects ──────────────────────────────────────────────────────────
-.filter-select {
-  font-family: 'Source Sans 3', sans-serif;
-  font-size: 0.82rem;
-}
-
-// ─── Updates / news list ─────────────────────────────────────────────────────
-// Bold year labels in the Updates section are already in the .md;
-// we just tighten the list spacing.
-ul li {
-  margin-bottom: 0.3rem;
-  font-size: 0.97rem;
-}
-
-// ─── Horizontal rule between sections ────────────────────────────────────────
-hr {
-  border: none;
-  border-top: 1px solid #e0e4ec;
-  margin: 2rem 0;
-}
-
-// ─── Footer ──────────────────────────────────────────────────────────────────
-footer, footer a {
-  font-family: 'Source Sans 3', sans-serif;
-  font-size: 0.82rem;
-  color: #888;
-}
+    font-family: $font-family;
+    font-size: 16.5px;          // slightly larger than theme default (16px)
+    line-height: 1.75;          // generous leading for dense academic prose
+    color: #1a1a1a;
+  }
+  
+  // Navigation stays sans-serif — it's chrome, not content.
+  nav, nav a {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+  
+  // The site title / name in the header
+  #page-title {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  
+  // ─── Profile photo ───────────────────────────────────────────────────────────
+  // The default .profile-picture rule in the researcher theme renders the
+  // photo quite large (often 200–250px). For an academic page the photo
+  // should be a modest headshot, not a hero image. We set it to 130px,
+  // add a subtle border, and keep the circular crop the theme provides.
+  .profile-picture {
+    width: 130px !important;
+    height: 130px !important;
+    max-width: 130px !important;  // override the theme's max-width: 30% rule
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #d0d8e8;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  // ─── Headings ────────────────────────────────────────────────────────────────
+  // Use Lora for section headings; slightly reduced weight so they feel
+  // literary rather than loud.
+  h1, h2, h3, h4 {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #111;
+  }
+  
+  h2 {
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid #e0e4ec;  // thin rule under section headers
+  }
+  
+  h3 {
+    font-size: 1.05rem;
+    margin-top: 1.4rem;
+    color: #2c2c2c;
+  }
+  
+  // ─── Links ───────────────────────────────────────────────────────────────────
+  // The $accent value from vars.scss is already applied by the theme.
+  // We just remove the underline by default and add it on hover for
+  // a cleaner look in dense publication lists.
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+  
+  // ─── Publication entries ─────────────────────────────────────────────────────
+  // The index.md wraps each pub in <div class="publication">.
+  // These rules make the venue tags and paper links look polished.
+  .publication {
+    margin-bottom: 1.1rem;
+  }
+  
+  // Venue / conference badge
+  .tag {
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    padding: 0.2rem 0.55rem;
+    border-radius: 4px;
+  }
+  
+  .conf-tag {
+    background-color: #4a6fa5;  // matches $accent
+    color: #fff;
+  }
+  
+  .year-tag {
+    background-color: #6b7280;
+    color: #fff;
+  }
+  
+  // Publication text: author list in a lighter weight, title in italic
+  // (the .md already wraps titles in * * for <em>)
+  .publication p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 0.2rem 0 0;
+    color: #222;
+  }
+  
+  // ─── Filter selects ──────────────────────────────────────────────────────────
+  .filter-select {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 0.82rem;
+  }
+  
+  // ─── Updates / news list ─────────────────────────────────────────────────────
+  // Bold year labels in the Updates section are already in the .md;
+  // we just tighten the list spacing.
+  ul li {
+    margin-bottom: 0.3rem;
+    font-size: 0.97rem;
+  }
+  
+  // ─── Horizontal rule between sections ────────────────────────────────────────
+  hr {
+    border: none;
+    border-top: 1px solid #e0e4ec;
+    margin: 2rem 0;
+  }
+  
+  // ─── Footer ──────────────────────────────────────────────────────────────────
+  footer, footer a {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 0.82rem;
+    color: #888;
+  }
