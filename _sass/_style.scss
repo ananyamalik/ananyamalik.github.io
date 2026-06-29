@@ -1,4 +1,10 @@
 @import "vars";
+@import url('https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css');
+
+@import "typography";
+@import "tables";
+
+
 
 /*
  * Basic
@@ -11,9 +17,9 @@ html {
 }
 body {
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: "Computer Modern Serif", "Latin Modern Roman", "CMU Serif", Georgia, serif;
     height: 100%;
-    background-color: rgba(246, 241, 236, 0.927);
+    background-color: #f5f0e8;
 }
 a {
     text-decoration: none;
@@ -30,10 +36,10 @@ hr {
 }
 
 .updates {
-    height: 300px;          /* Adjust this height to your preference */
-    overflow-y: auto;       /* Adds the scrollbar only when content exceeds the height */
-    padding-right: 15px;    /* Optional: adds space so text doesn't touch the scrollbar */
-    border: 1px solid #eee; /* Optional: helps define the area */
+    height: 300px;
+    overflow-y: auto;
+    padding-right: 15px;
+    border: 1px solid #eee;
 }
 
 .updates::-webkit-scrollbar {
@@ -90,15 +96,25 @@ hr {
 }
 .wrapper {
     min-height: 100%;
+    background-color: #f5f0e8;
 }
 
 /* Institute Image */
 
 #ins-logo {
-	margin: auto;
-	display: block;
-	max-height: 100px;
-	text-align: center;
+    margin: auto;
+    display: block;
+    max-height: 100px;
+    text-align: center;
+}
+
+/* Profile photo */
+
+img[src*="ananya_profile"],
+img[alt*="Profile photo"] {
+    width: 160px;
+    max-width: 160px;
+    height: auto;
 }
 
 /* Mobile */
@@ -120,32 +136,29 @@ hr {
 }
 
 @media (max-width: 500px) {
-	.navbar {
-		text-align: center;
-		padding: 50px 0px 0px 0px;
-	}
-	#author-name {
-		width: 100%;
-		float: none;
-	}
-	#navlist {
-		padding: 10px 0 10px 0;
-		margin: 0;
-		display: block;
-		float: none;
-		text-align: center;
-		width: 100%;
-	}
-	#navlist li.alignable {
-		display: inline-block;
-	}
-	#navlist li.pull-left {
-		float: none;
-	}
-	#navlist li.nav-list {
-		margin: 0;
-	}
+    .navbar {
+        text-align: center;
+        padding: 50px 0px 0px 0px;
+    }
+    #author-name {
+        width: 100%;
+        float: none;
+    }
+    #navlist {
+        padding: 10px 0 10px 0;
+        margin: 0;
+        display: block;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    #navlist li.alignable {
+        display: inline-block;
+    }
+    #navlist li.pull-left {
+        float: none;
+    }
+    #navlist li.nav-list {
+        margin: 0;
+    }
 }
-
-@import "typography";
-@import "tables";
