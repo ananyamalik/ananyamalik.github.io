@@ -1,14 +1,18 @@
-/*
- * Customization Variables
- */
+// ─── Typography ──────────────────────────────────────────────────────────────
+// Import academic-grade fonts from Google Fonts.
+// Lora is a well-kerned serif used widely in academic publishing.
+// Source Sans 3 is a clean, readable sans for body copy and UI chrome.
+// JetBrains Mono is used for venue/tag labels to give them a data-like feel.
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Source+Sans+3:wght@300;400;600&family=JetBrains+Mono:wght@400;500&display=swap');
 
-$accent: #27548A;
-$image-size: 120px;
+// Body font: Lora gives scholarly weight; falls back to Georgia then generic serif.
+$font-family: 'Lora', 'Georgia', 'Times New Roman', serif;
 
-/*
- * Build Variables, don't touch
- */
+// The researcher theme exposes $accent for all hyperlinks.
+// A muted slate-blue reads as professional and calm — not garish.
+$accent: #4a6fa5;
 
-$max-width: 700px;
-$med-width: 600px;
-$small-width: 480px;
+// ─── Spacing & Layout ────────────────────────────────────────────────────────
+// The theme's default max-width is quite narrow; widening slightly
+// gives the two-column profile header more room to breathe.
+$max-width: 760px;
