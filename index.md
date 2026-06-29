@@ -4,30 +4,32 @@ layout: about
 
 ## About Me
 
-I am a second year CS PhD student at [Khoury College of Computer Science](https://www.khoury.northeastern.edu/) at Northeastern University in Boston. I am advised by [Prof Mai ElSherief](https://www.maielsherief.com/).
+I am a second-year Computer Science PhD student at Northeastern University's [Khoury College of Computer Science](https://www.khoury.northeastern.edu/), advised by [Prof. Mai ElSherief](https://www.maielsherief.com/). 
 
-Before starting my PhD, I was a Software Engineer with the [Selection Monitoring and Catalog Systems](https://www.amazon.jobs/content/en/teams/e-commerce-foundation/ascs) organization at Amazon in Seattle. Prior to that I was an MS CS student at [Georgia Tech](https://www.gatech.edu/). At Georgia Tech, I was advised by [Prof Srijan Kumar](https://faculty.cc.gatech.edu/~srijan/) in the CLAWS Lab. I also dabble as a Research mentor with [SimPPL](https://simppl.org/).
+📍 **Summer 2026:** Applied Research Intern at Adobe, working on latency optimization with Arko Mukherjee, Junxuan Li, and Subhojyoti Mukherjee.
 
-## Research Interest
+Previously, I was a Software Engineer at Amazon (Seattle) within the [Selection Monitoring and Catalog Systems](https://www.amazon.jobs/content/en/teams/e-commerce-foundation/ascs) team. I hold an MS in CS from [Georgia Tech](https://www.gatech.edu/), where I conducted research with [Prof. Srijan Kumar](https://faculty.cc.gatech.edu/~srijan/) in the CLAWS Lab. I also serve as a research mentor at [SimPPL](https://simppl.org/).
 
-I am interested in designing AI that are safer, more controllable, and socially aligned. My research areas broadly focus on the following:
+## Research Interests
 
-### 🤹🏼 Personalization
+I design AI systems that are safer, more controllable, and socially and cognitively aligned. 
 
-* **How do models internalize and represent human personas?** I explore how latent subspaces can be used to enable more precise behavioral control.
-* **How does user context influence model behavior?** My research examines how [context drives variation in empathy](https://arxiv.org/pdf/2510.10328) and how models respond to implicit cues such as [dialect](https://arxiv.org/abs/2410.20490) or identity.
-* **How do LLMs build internal "maps" of the world?** I investigate how geographic and spatial knowledge is structured within a model's weights and how this impacts downstream reasoning.
+### 🤹🏼 Persona Representation & Personalization
+* **Human Personas:** Investigating how models internalize human traits mechanistically and behaviorally, using latent subspaces for precise behavioral control.
+* **User Context:** Evaluating how demographics, [dialect](https://arxiv.org/abs/2410.20490), and identity affect model behavior and [empathy variation](https://arxiv.org/pdf/2510.10328).
+* **World Maps:** Studying how geographic and spatial knowledge is structured within model weights.
 
-### 🛡️ AI Safety and Social Alignment
+### 🧠 Cognitive & Social Alignment
+* **Cognitive-Inspired LLMs:** Grounding model architecture and optimization in human cognition to improve reasoning capabilities and complex problem-solving.
+* **Inference-Time Steering:** Using activation patching and causal mediation analysis to mitigate bias and modulate behavior without retraining.
+* **Robust Reasoning:** Developing lightweight interventions to ensure [consistent, human-aligned chain-of-thought processes](https://openreview.net/forum?id=v0XkjgeD6U&referrer=%5Bthe%20profile%20of%20Ananya%20Malik%5D(%2Fprofile%3Fid%3D~Ananya_Malik1)).
 
-* **Can we steer models toward safer behavior without retraining?** I use activation patching and causal mediation analysis to identify internal circuits and develop inference-time methods for bias mitigation.
-* **How can we make model reasoning more robust?** I research ways to [steer chain-of-thought processes using light weight interventions](https://openreview.net/forum?id=v0XkjgeD6U&referrer=%5Bthe%20profile%20of%20Ananya%20Malik%5D(%2Fprofile%3Fid%3D~Ananya_Malik1)) to ensure that a model’s logical "thought" traces are consistent and aligned with human expectations.
-* **How do we identify adversarial and negative LLM behavior?** I study what triggers and how to stop model's harmful social behavior.
+### 🤝🌐 Computational Social Science & Safety
+* **Healthy Communities:** Developing NLP tools to detect nuanced online phenomena like [dog whistles](https://drive.google.com/file/d/1hYIJjy92jo9VgBmfIY3AZTr-KUbr0dTa/view) and [hate speech reasoning](https://ananyamalikk.substack.com/p/intent-to-hate).
+* **Behavioral Detection:** Identifying, studying, and neutralizing adversarial, harmful, or negative social behaviors in LLMs.
+* **Intent Analysis:** Applying optimized prompts to analyze social trends, such as digital expressions of [motherhood burnout](https://arxiv.org/abs/2602.07781).
 
-### 🤝🌐 Computational Social Science
-
-* **How can AI support healthier online communities?** My work focuses on building tools that identify nuanced social phenomena, such as [detecting dog whistles](https://drive.google.com/file/d/1hYIJjy92jo9VgBmfIY3AZTr-KUbr0dTa/view) and analyzing the [reasoning behind hate speech](https://ananyamalikk.substack.com/p/intent-to-hate).
-* **How does AI interpret intent in digital spaces?** I explore how NLP frameworks and prompt optimization can be applied to study rampant [motherhood burnout](https://arxiv.org/abs/2602.07781) as expressed in reddit communities
+---
 
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1em;">
   <h2>Publications</h2>
@@ -48,7 +50,7 @@ I am interested in designing AI that are safer, more controllable, and socially 
       <option value="Journal">Journal</option>
       <option value="Pre-print">Pre-print</option>
     </select>
-    </div>
+  </div>
 </div>
 
 <div class="publications">
@@ -77,7 +79,7 @@ I am interested in designing AI that are safer, more controllable, and socially 
   <div class="pub-header">
     <span class="tag conf-tag">Pre-print</span>
   </div>
-  <p><strong>Malik, Ananya</strong>
+  <p><strong>Malik, Ananya</strong>. 
   <em>Evaluating Large Language Models through Gender and Racial Stereotypes.</em>  
   <a href="https://arxiv.org/pdf/2311.14788" target="_blank">📄 Paper Link</a></p>
 </div>
@@ -86,17 +88,17 @@ I am interested in designing AI that are safer, more controllable, and socially 
   <div class="pub-header">
     <span class="tag conf-tag">ITM Web Conference</span>
   </div>
-  <p>Amogh Parab, <strong>Ananya Malik</strong>, Arish Damania, Arnav Parekhji
+  <p>Amogh Parab, <strong>Ananya Malik</strong>, Arish Damania, Arnav Parekhji. 
   <em>Successive Image Generation from a Single Sentence.</em>  
   <a href="https://www.itm-conferences.org/articles/itmconf/abs/2021/05/itmconf_icacc2021_03017/itmconf_icacc2021_03017.html" target="_blank">📄 Paper Link</a></p>
 </div>
 
 <div class="publication" data-year="2022" data-conference="Journal">
   <div class="pub-header">
-    <span class="tag conf-tag">Elsvier</span>
+    <span class="tag conf-tag">Elsevier</span>
   </div>
-  <p> <strong>A.Malik</strong>, Y. Javeri, M. Shah, R. Mangrulkar,
-  <em>Impact Analysis of Covid 19 News Headlines on Global Economy</em>  Cyber-Physical Systems for COVID-19, Elsevier
+  <p> <strong>A. Malik</strong>, Y. Javeri, M. Shah, R. Mangrulkar. 
+  <em>Impact Analysis of Covid 19 News Headlines on Global Economy.</em> Cyber-Physical Systems for COVID-19, Elsevier. 
   <a href="https://www.sciencedirect.com/science/article/abs/pii/B9780128245576000017" target="_blank">📄 Paper Link</a></p>
 </div>
 
@@ -104,49 +106,42 @@ I am interested in designing AI that are safer, more controllable, and socially 
   <div class="pub-header">
     <span class="tag conf-tag">IJCA</span>
   </div>
-  <p> <strong>A.Malik</strong>
-  <em>Survey paper on applications of generative adversarial networks in the field of social media</em>
-  <a href="https://d1wqtxts1xzle7.cloudfront.net/93533194/ijca2020920728-libre.pdf?1667396719=&response-content-disposition=inline%3B+filename%3DSurvey_Paper_on_Applications_of_Generati.pdf&Expires=1761336773&Signature=d8gBTOn2lFQ-lqYMGkjpm-eOjpVm7QSwUO-vs4nBbyB4A9oo8QVBXVolbZIN1QvXjEcFJAPhIRhOCuPikRVlxXcYK-wu3bDU0Mhqpl9azfW1S6QCmHuqpzDLsmRSqlWDNDcG8xRF9qztIO1jxBDBA6NNammBgKTcUF4bqFnPCrMCitFpvKOhn5sLgmxh~Ncyb-m-3b1shgQqVOUjIXdz3C5gev-yiT~EvLguncquDKTn4FYF3N2Ma7FS5ubLpH3JuerIs~xtkV5cLByUXtTnGYC0QJ8o1PZGRSoe7aRjI~xzNXvDZicpOdI4j0rYjhZjKGdE~FqvsX5k6UzvY6VCAw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA" target="_blank">📄 Paper Link</a></p>
+  <p> <strong>A. Malik</strong>. 
+  <em>Survey paper on applications of generative adversarial networks in the field of social media.</em>
+  <a href="https://d1wqtxts1xzle7.cloudfront.net/93533194/ijca2020920728-libre.pdf" target="_blank">📄 Paper Link</a></p>
 </div>
 
 </div>
 
 <style>
 .filter-container {
-  background: transparent;      /* remove light background */
-  border: none;                 /* remove border */
-  padding: 0;                   /* remove extra padding */
-  border-radius: 0;             /* no rounded corners */
-  margin-bottom: 1rem;          /* keep spacing below */
-  box-shadow: none;             /* remove shadow */
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin-bottom: 1rem;
+  box-shadow: none;
   display: flex;
-  justify-content: flex-end;    /* align filters right */
-  gap: 0.5rem;                  /* small spacing between dropdowns */
-  align-items: center;          /* vertically center with heading if needed */
+  justify-content: flex-end;
+  gap: 0.5rem;
+  align-items: center;
 }
-
 .filter-container h3 {
   font-weight: 600;
-  margin: 0;                    /* remove extra bottom margin */
-  margin-right: auto;           /* push dropdowns to the right */
+  margin: 0 auto 0 0;
 }
-
 .filter-select {
-  padding: 0.25rem 0.5rem;      /* smaller, compact dropdowns */
-  border: 1px solid #ccc;       /* subtle border only */
-  border-radius: 4px;           /* small rounded corners */
-  background: transparent;       /* matches page background */
-  font-size: 0.85rem;            /* smaller font for compact look */
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: transparent;
+  font-size: 0.85rem;
   cursor: pointer;
   transition: all 0.2s ease;
 }
-
 .filter-select:hover {
-  border-color: #007bff;        /* subtle hover effect */
-  box-shadow: none;              /* remove shadow */
+  border-color: #007bff;
+  box-shadow: none;
 }
-
-/* --- Publications --- */
 .publications {
   display: flex;
   flex-direction: column;
@@ -159,7 +154,6 @@ I am interested in designing AI that are safer, more controllable, and socially 
   padding: 0;
   margin-bottom: 0.05em;
 }
-
 .publication:hover {
   transform: translateY(-3px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
@@ -177,18 +171,14 @@ I am interested in designing AI that are safer, more controllable, and socially 
   color: #fff;
 }
 .year-tag {
-  background-color: #6c757d; /* grayish */
+  background-color: #6c757d;
 }
-
 .conf-tag {
   background-color: #CC7722;
 }
-
 .publication p {
   margin: 0;
 }
-
-/* --- Responsive --- */
 @media (max-width: 600px) {
   .filter-buttons {
     flex-direction: column;
@@ -218,26 +208,18 @@ yearFilter.addEventListener('change', applyFilters);
 confFilter.addEventListener('change', applyFilters);
 </script>
 
+---
 
-## Academic Service and Groups
+## Academic Service & Groups
 
-### Groups 
+### Affiliations
+* **NEU:** [CSG (Computation for Social Good) Lab](https://www.maielsherief.com/)
+* [Geodesic Research](https://www.geodesicresearch.org/) | [MAIA](https://aialignment.mit.edu/) | [SimPPL](https://simppl.org/) | [CLAWS (Georgia Tech)](https://faculty.cc.gatech.edu/~srijan/)
 
-- [CSG (Computation for Social Good) Lab @ NEU](https://www.maielsherief.com/)
-- [Geodesic Research](https://www.geodesicresearch.org/)
-- [MAIA](https://aialignment.mit.edu/)
-- [SimPPL](https://simppl.org/)
-- [CLAWS](https://faculty.cc.gatech.edu/~srijan/)
+### Teaching Assistance
+* **NEU:** [CS 5200: Database Management Systems](https://www.khoury.northeastern.edu/people/martin-schedlbauer/) | [CS 4100: Foundations of AI](https://www.khoury.northeastern.edu/home/camato/4100summaryS25.html) (Spring 2025)
+* **Georgia Tech:** CS 3600: Intro to AI (Spring/Fall 2022)
 
-### Teaching
-
-- TA for [CS 5200: Database Management Systems](https://www.khoury.northeastern.edu/people/martin-schedlbauer/)
--  TA for [CS 4100: Foundations of AI (Spring 2025)](https://www.khoury.northeastern.edu/home/camato/4100summaryS25.html) with Prof Chris Amato
-
-- TA for CS 3600: Intro to AI, with Prof James Rehg (Spring 2022) and Prof Mark Reidl (Fall 2022)
-
-### Talks
-
-- [Slides](https://www.canva.com/design/DAGjgwNOPBE/Z09A59smG8vXAGvgaW7PFA/view?utm_content=DAGjgwNOPBE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7faf8a8774) of my lecture on Advanced Topics in AI
-
-- Presentation and Slides at SafeGenAI workship at NeurIPS on [Who Speaks Matters: Analysing the Influence of the Speaker’s Ethnicity on Hate Classification](https://neurips.cc/virtual/2024/workshop/84705#wse-detail-109375)
+### Talks & Presentations
+* **Lecture:** [Advanced Topics in AI](https://www.canva.com/design/DAGjgwNOPBE/Z09A59smG8vXAGvgaW7PFA/view?utm_content=DAGjgwNOPBE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7faf8a8774) (Slides)
+* **NeurIPS SafeGenAI Workshop:** [Who Speaks Matters: Analysing the Influence of the Speaker’s Ethnicity on Hate Classification](https://neurips.cc/virtual/2024/workshop/84705#wse-detail-109375) (Presentation & Slides)
