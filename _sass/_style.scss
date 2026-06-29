@@ -1,151 +1,100 @@
-@import "vars";
-
-/*
- * Basic
- */
-
-html {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
+/* --- Global Academic Styling Enhancements --- */
 body {
-    margin: 0;
-    font-family: 'Lato', sans-serif;
-    height: 100%;
-    background-color: rgba(246, 241, 236, 0.927);
-}
-a {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #222;
+    line-height: 1.6;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom: 1px solid #eaecef; /* Subtle separation line */
+    padding-bottom: 0.3rem;
+    margin-top: 2rem;
+    color: #111;
+  }
+  
+  /* --- Publications Clean List Structure --- */
+  .publications {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* Better breathing room between entries */
+    margin-top: 1rem;
+  }
+  
+  .publication {
+    background-color: transparent; 
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin-bottom: 0;
+    transition: none; /* Turn off animations for a pristine, static text feel */
+  }
+  
+  .pub-header {
+    margin-bottom: 0.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  
+  /* --- Refined Academic Tags --- */
+  .tag {
+    display: inline-block;
+    padding: 0.15rem 0.45rem;
+    border-radius: 4px; /* Slightly crisper edges than full rounded pills */
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Dark professional color palette for status tags */
+  .conf-tag {
+    background-color: #1a365d; /* Deep Navy Blue */
+    color: #fff;
+  }
+  
+  /* Oral, spotlight, or special mention tags */
+  .oral-tag {
+    background-color: #8c1d40; /* Deep Maroon / Crimson accent */
+    color: #fff;
+  }
+  
+  .publication p {
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  .publication em {
+    color: #000;
+    font-weight: 500;
+  }
+  
+  /* Styled Paper Links */
+  .publication aria-label, .publication a {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #0066cc;
     text-decoration: none;
-    color: $accent;
-}
-a:hover {
+    margin-left: 0.25rem;
+  }
+  
+  .publication a:hover {
     text-decoration: underline;
-}
-hr {
-    border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.updates {
-    height: 300px;          /* Adjust this height to your preference */
-    overflow-y: auto;       /* Adds the scrollbar only when content exceeds the height */
-    padding-right: 15px;    /* Optional: adds space so text doesn't touch the scrollbar */
-    border: 1px solid #eee; /* Optional: helps define the area */
-}
-
-.updates::-webkit-scrollbar {
-    width: 8px;
-}
-.updates::-webkit-scrollbar-thumb {
-    background: #ccc; 
+  }
+  
+  /* Compact Filters Row */
+  .filter-select {
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #ccc;
     border-radius: 4px;
-}
-.updates::-webkit-scrollbar-thumb:hover {
-    background: #888; 
-}
-
-/*
- * Navbar
- */
-
-#author-name {
-    font-family: 'Reddit Sans', sans-serif;
-    font-size: 34px;
-    color: #e34d11;
-    display: inline-block;
-}
-.navbar {
-    padding: 50px 0 50px 0;
-}
-.navbar-ul {
-    display: inline-block;
-    margin: 0;
-    padding: 5px 0 5px 0;
-    margin-left: 20px;
-}
-.nav-list {
-    list-style-type: none;
-    margin: 0 5px 0 10px;
-}
-.alignable {
-    display: inline-block;
-}
-.pull-left {
-    @extend .alignable;
-    float: left;
-}
-.pull-right {
-    @extend .alignable;
-    float: right;
-}
-
-/* Divs */
-
-.container {
-    max-width: $max-width;
-    margin: auto;
-}
-.wrapper {
-    min-height: 100%;
-}
-
-/* Institute Image */
-
-#ins-logo {
-	margin: auto;
-	display: block;
-	max-height: 100px;
-	text-align: center;
-}
-
-/* Mobile */
-
-@media (max-width: 800px) {
-    .container {
-        max-width: $med-width;
-        transition: 0.3s ease all;
-    }
-}
-
-@media (max-width: 650px) {
-    .container {
-        max-width: 83%;
-    }
-    .navbar-ul {
-        margin-top: 5px;
-    }
-}
-
-@media (max-width: 500px) {
-	.navbar {
-		text-align: center;
-		padding: 50px 0px 0px 0px;
-	}
-	#author-name {
-		width: 100%;
-		float: none;
-	}
-	#navlist {
-		padding: 10px 0 10px 0;
-		margin: 0;
-		display: block;
-		float: none;
-		text-align: center;
-		width: 100%;
-	}
-	#navlist li.alignable {
-		display: inline-block;
-	}
-	#navlist li.pull-left {
-		float: none;
-	}
-	#navlist li.nav-list {
-		margin: 0;
-	}
-}
-
-@import "typography";
-@import "tables";
+    background-color: #fff;
+    font-size: 0.85rem;
+    color: #333;
+    outline: none;
+  }
+  
+  .filter-select:focus {
+    border-color: #1a365d;
+  }
